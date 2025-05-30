@@ -917,6 +917,14 @@ const scheduleData3 = [
     presenter: "Abhinav Sharma",
     track: "Main Track: ICCSAI2025",
     room: "AI Block-307"
+  },
+  {
+    session: "Technical Session-12",
+    id: 2100,
+    title: "Computer Virus Propagation Models: A Mathematical Review",
+    presenter: "Om Prakash",
+    track: "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning",
+    room: "AI Block-307"
   }
 ];
 
