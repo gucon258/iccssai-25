@@ -1,8 +1,6 @@
 "use client"
 import React from "react";
 
-
-
 const scheduleData = [
   { session: "Technical Session-1", id: "13", title: "CNN-Based Nerve Block Segmentation", presenter: "Ravi Teja Gundimeda", track: "Main Track: ICCSAI 2025" },
   { session: "Technical Session-1", id: "24", title: "Design and Implementation of Carry Look-Ahead Adder using PTL with Comparative Analysis Against Transmission Gate Logic", presenter: "Chezhiyan M", track: "Main Track: ICCSAI 2025" },
@@ -135,7 +133,8 @@ const scheduleData = [
   { session: "Technical Session-13",id: "1657", title: "A Review on: A lightweight DCCN system for real-time surveillance that detects abandoned objects", presenter: "Neha Thotapalli", track: "Track-1: Emerging Trends  and Applications  in Machine Learning and Deep Learning" },
   { session: "Technical Session-13",id: "1676", title: "LUNG CANCER PREDICTION USING MACHINE LEARNING", presenter: "S.Priyanka", track: "Track-1: Emerging Trends  and Applications  in Machine Learning and Deep Learning" }
 ];
-  const scheduleData2 = [
+
+const scheduleData2 = [
   { session: "Technical Session-14",id: "1708", title: "Automated Transparent Glass Detection System Using Semantic Segmentation", presenter: "Vaibhav More", track: "Track-1: Emerging Trends  and Applications  in Machine Learning and Deep Learning" },
   { session: "Technical Session-14",id: "1718", title: "From Diagnosis to Treatment: A Systematic Review of Machine Learning Technologies in Depression Care Management", presenter: "Ajay Sudhir Bale", track: "Track-1: Emerging Trends  and Applications  in Machine Learning and Deep Learning" },
   { session: "Technical Session-14",id: "1719", title: "Deep Learning-Based Automatic Fake News Recognition on Online Social Networks", presenter: "Pragya Goswami", track: "Track-1: Emerging Trends  and Applications  in Machine Learning and Deep Learning" },
@@ -176,7 +175,7 @@ const scheduleData = [
   { session: "Technical Session-17",id: "1469", title: "Handling Security Aspects in the Internet of Things: Latest Challenges and Measures to Mitigate Risks", presenter: "Kawerinder Singh Sidhu", track: "Track-13: Blockchain, Cybersecurity, and AI: Building Resilient Systems  for the Future" },
   { session: "Technical Session-17",id: "1474", title: "Lightweight Deep Learning for Knee Osteoarthritis Analysis: A MobileNet Perspective", presenter: "Kapil Joshi", track: "Track-13: Blockchain, Cybersecurity, and AI: Building Resilient Systems  for the Future" },
   { session: "Technical Session-17",id: "1683", title: "Identity and Proxy Orientation based Remote Data Integration Checking and Uploading in Public Clouds", presenter: "N. Sampreeth Chowdary", track: "Track-13: Blockchain, Cybersecurity, and AI: Building Resilient Systems  for the Future" },
-  { session: "Technical Session-17",id: "53", title: "Blockchain-“Based Voting System”: Comprehensive Analysis and Future Prospects", presenter: "Ramanjeet Singh", track: "Track-2: Immersive Futures: Merging Realities with Intelligent Systems" },
+  { session: "Technical Session-17",id: "53", title: "Blockchain-Based Voting System: Comprehensive Analysis and Future Prospects", presenter: "Ramanjeet Singh", track: "Track-2: Immersive Futures: Merging Realities with Intelligent Systems" },
   { session: "Technical Session-17",id: "169", title: "Intelligent Real Time Monitoring Module Designed for Helmet and Number Plate Detection", presenter: "Harendra Singh Negi", track: "Track-2: Immersive Futures: Merging Realities with Intelligent Systems" },
   { session: "Technical Session-17",id: "401", title: "A study to investigate eﬀective tools and framework for blockchain based healthcare environment", presenter: "Kritika Sharma", track: "Track-2: Immersive Futures: Merging Realities with Intelligent Systems" },
   { session: "Technical Session-18",id: "424", title: "Deep Diving Into Blockchain Frameworks and Their Issues", presenter: "Sowmya M", track: "Track-2: Immersive Futures: Merging Realities with Intelligent Systems" },
@@ -253,7 +252,7 @@ const scheduleData = [
   { session: "Technical Session-24",id: "719", title: "Natural Killer Cells in Intrusion Detection: A CIS-Based Approach for Improving Detection Accuracy", presenter: "R.Roselinkiruba", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
   { session: "Technical Session-25",id: "721", title: "CONTEXT AWARE APPROACH FOR SERVER SCEHEDULING PROCESS IN MACHINE LEARNING", presenter: "Dr.R.Roselinkiruba", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
   { session: "Technical Session-25",id: "754", title: "White Light Medical Image Based Oral Cancer Diagnosis Using an Ensemble Deep Learning Model", presenter: "Kola Anantha Venkata Sai", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
-  { session: "Technical Session-25",id: "1417", title: "AQUAFORECAST: PREDICTING CHENNAI’S WATER AVAILABILITY AND DEMAND", presenter: "Priyanka M", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
+  { session: "Technical Session-25",id: "1417", title: "AQUAFORECAST: PREDICTING CHENNAI'S WATER AVAILABILITY AND DEMAND", presenter: "Priyanka M", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
   { session: "Technical Session-25",id: "1522", title: "Implementation and optimization of object detection on FPGA-based CPU+NPU heterogeneous system", presenter: "Cuiping Shao", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
   { session: "Technical Session-25",id: "1559", title: "Crop Disease Prediction using AI", presenter: "Nagaraju Bogiri", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
   { session: "Technical Session-25",id: "1575", title: "Performance Analysis of Machine Learning Models and Deep Learning Model for Credit Card Fraud Detection", presenter: "Liza Dagar", track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques  and Applications" },
@@ -279,69 +278,189 @@ const scheduleData = [
 ];
 
 const Schedule = () => {
-  // Assuming scheduleData and scheduleData2 are defined as shown in your code
-
   return (
-    <>
+    <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6">Day-1 (9:30 AM - 12:30 PM), 04 April 2025 (Slot 1)</h2>
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
-              <th className="border p-2">Track Name</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData.map((item, index) => (
-              <tr
-                key={index}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
-                <td className="border p-2">{item.track}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <h1 className="text-3xl font-bold text-center mb-8 text-red-800">Online Technical Paper Presentation Schedule</h1>
+        
+        {/* Day 1 - Slot 1 */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-center mb-4">Day 1 (9:00 AM - 12:30 PM), 05 April 2025 (Slot 1)</h2>
+          <div className="bg-red-600 text-white text-center font-bold py-2 px-4 rounded-lg shadow-lg mb-6">
+            ONLINE - Technical Sessions 1-13
+          </div>
+          
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead>
+                <tr className="bg-red-600 text-white">
+                  <th className="border p-3">Technical Session</th>
+                  <th className="border p-3">Paper ID</th>
+                  <th className="border p-3">Paper Title</th>
+                  <th className="border p-3">Presenter</th>
+                  <th className="border p-3">Track Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scheduleData
+                  .filter(item => {
+                    const sessionNum = parseInt(item.session.split('-')[1]);
+                    return sessionNum >= 1 && sessionNum <= 13;
+                  })
+                  .map((item, index) => (
+                    <tr key={index} className={index % 2 === 0 ? 'bg-red-50' : 'bg-white'}>
+                      <td className="border p-3 text-center">{item.session}</td>
+                      <td className="border p-3 text-center">{item.id}</td>
+                      <td className="border p-3">{item.title}</td>
+                      <td className="border p-3">{item.presenter}</td>
+                      <td className="border p-3">{item.track}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Day 1 - Slot 2 */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-center mb-4">Day 1 (12:00 PM - 3:30 PM), 05 April 2025 (Slot 2)</h2>
+          <div className="bg-red-600 text-white text-center font-bold py-2 px-4 rounded-lg shadow-lg mb-6">
+            ONLINE - Technical Sessions 14-27
+          </div>
+          
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead>
+                <tr className="bg-red-600 text-white">
+                  <th className="border p-3">Technical Session</th>
+                  <th className="border p-3">Paper ID</th>
+                  <th className="border p-3">Paper Title</th>
+                  <th className="border p-3">Presenter</th>
+                  <th className="border p-3">Track Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scheduleData2
+                  .filter(item => {
+                    const sessionNum = parseInt(item.session.split('-')[1]);
+                    return sessionNum >= 14 && sessionNum <= 27;
+                  })
+                  .map((item, index) => (
+                    <tr key={index} className={index % 2 === 0 ? 'bg-red-50' : 'bg-white'}>
+                      <td className="border p-3 text-center">{item.session}</td>
+                      <td className="border p-3 text-center">{item.id}</td>
+                      <td className="border p-3">{item.title}</td>
+                      <td className="border p-3">{item.presenter}</td>
+                      <td className="border p-3">{item.track}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Day 3 - Leftover Papers */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-center mb-4">Day 3 (9:30 AM - 1:00 PM), 06 April 2025</h2>
+          <div className="bg-red-600 text-white text-center font-bold py-2 px-4 rounded-lg shadow-lg mb-6">
+            ONLINE - Leftover Papers
+          </div>
+          
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead>
+                <tr className="bg-red-600 text-white">
+                  <th className="border p-3">Technical Session</th>
+                  <th className="border p-3">Paper ID</th>
+                  <th className="border p-3">Paper Title</th>
+                  <th className="border p-3">Presenter</th>
+                  <th className="border p-3">Track Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">404</td>
+                  <td className="border p-3">CROP YEILD PREDICTION FOR SMART FARMING</td>
+                  <td className="border p-3">Vansh Gupta , Sourabh , Veer Pratap, Ajay Kumar</td>
+                  <td className="border p-3">Main Track: ICCSAI 2025</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">1987</td>
+                  <td className="border p-3">The Impact of Neuromorphic Computing on Brain-Inspired Robotics: A Novel Architectural Paradigm</td>
+                  <td className="border p-3">Sumanshu Jindal</td>
+                  <td className="border p-3">Main Track: ICCSAI 2025</td>
+                </tr>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">497</td>
+                  <td className="border p-3">Accelerating Antenna Development: The Role of Machine Learning Algorithms</td>
+                  <td className="border p-3">Rashmi Sachin Tikar</td>
+                  <td className="border p-3">Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">622</td>
+                  <td className="border p-3">KDD on CIFAR 10 Dataset by Deep Learning Models</td>
+                  <td className="border p-3">Mohan E</td>
+                  <td className="border p-3">Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications</td>
+                </tr>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">719</td>
+                  <td className="border p-3">Natural Killer Cells in Intrusion Detection: A CIS-Based Approach for Improving Detection Accuracy</td>
+                  <td className="border p-3">R.Roselinkiruba</td>
+                  <td className="border p-3">Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">721</td>
+                  <td className="border p-3">CONTEXT AWARE APPROACH FOR SERVER SCEHEDULING PROCESS IN MACHINE LEARNING</td>
+                  <td className="border p-3">Dr.R.Roselinkiruba</td>
+                  <td className="border p-3">Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications</td>
+                </tr>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">140</td>
+                  <td className="border p-3">AI-Augmented Cybersecurity Protocols for Secure Multi-Hop Wireless Communication in 6G Networks</td>
+                  <td className="border p-3">Renu Kumawat</td>
+                  <td className="border p-3">Main Track: ICCSAI2025</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">159</td>
+                  <td className="border p-3">Crop Recommendation Using Machine Learning Algorithms</td>
+                  <td className="border p-3">Ankur Sharma</td>
+                  <td className="border p-3">Main Track: ICCSAI2025</td>
+                </tr>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">1215</td>
+                  <td className="border p-3">An Examination of Brain Tumor Using the ABC and ANN Algorithms</td>
+                  <td className="border p-3">Amar Singh</td>
+                  <td className="border p-3">Track-6: Federated Learning for Predictive Healthcare Paradigm</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">1634</td>
+                  <td className="border p-3">An Explainable AI-Centric Approach for Healthcare: A Review</td>
+                  <td className="border p-3">Sumit Sharma</td>
+                  <td className="border p-3">Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies</td>
+                </tr>
+                <tr className="bg-red-50">
+                  <td className="border p-3 text-center">Leftover</td>
+                  <td className="border p-3 text-center">2153</td>
+                  <td className="border p-3">Integrating Explainability in AI for Retinal Imaging: Enhancing Diabetic Retinopathy Diagnosis Accuracy</td>
+                  <td className="border p-3">Sumit Sharma</td>
+                  <td className="border p-3">Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-      <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule SLOT-2</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1(1 PM- 4.00 PM), 04 April 2025</h2>
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th> {/* Added this missing header */}
-              <th className="border p-2">Track Name</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData2.map((item, index) => (
-              <tr
-                key={index}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td> {/* This will now display correctly */}
-                <td className="border p-2">{item.track}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </>
+    </div>
   );
 };
 

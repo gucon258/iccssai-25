@@ -620,7 +620,7 @@ const scheduleData3 = [
     title: "AI ENHANCED DEPRESSION DETECTION USING CHATBOT AND FACIAL DATA ANALYSIS",
     presenter: "Rashi Sharma",
     track: "Track-3: Artiﬁcial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -628,7 +628,7 @@ const scheduleData3 = [
     title: "SecureVote: Enhancing Electoral Integrity Using Blockchain-Based E-Voting",
     presenter: "Rhythm Garg",
     track: "Track-4: Innovative and Disruptive Technologies",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -636,7 +636,7 @@ const scheduleData3 = [
     title: "A Comprehensive Evaluation of Over-sampling and Under-sampling Methods for Imbalanced Data in Anomaly Detection",
     presenter: "Pooja",
     track: "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -644,7 +644,7 @@ const scheduleData3 = [
     title: "Smart Hostel Booking System for Eﬃcient Room Allocation and Management",
     presenter: "Siddharth Kumar Yadav",
     track: "Track-4: Innovative and Disruptive Technologies",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -652,7 +652,7 @@ const scheduleData3 = [
     title: "Lung Cancer Detection with Privacy Preservation Using Federated Learning",
     presenter: "Jyoti Kumari",
     track: "Track-4: Innovative and Disruptive Technologies",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -660,7 +660,7 @@ const scheduleData3 = [
     title: "\"SOLAR WIRELESS ELECTRIC VEHICLE CHARGING SYSTEM",
     presenter: "",
     track: "Track-4: Innovative and Disruptive Technologies",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -668,7 +668,7 @@ const scheduleData3 = [
     title: "Pattern Matching of Gene Sequencing using LCS and String-Matching Algorithms",
     presenter: "Shachi Mall",
     track: "Track-5: Recent Trends and Innovations in Generative AI",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -676,7 +676,7 @@ const scheduleData3 = [
     title: "Innovative approaches of Data Extraction and Bulk messaging on WhatsApp using RPA",
     presenter: "Parth Pachauri",
     track: "Track-5: Recent Trends and Innovations in Generative AI",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -684,7 +684,7 @@ const scheduleData3 = [
     title: "AI based Automatic Solar Irrigation System",
     presenter: "Mayank Pratap Singh",
     track: "Track-5: Recent Trends and Innovations in Generative AI",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-9",
@@ -692,7 +692,7 @@ const scheduleData3 = [
     title: "\"Comparing Generative AI on Employee Motivation and Job Satisfaction in Pre-opening vs. Established Hotels\"",
     presenter: "Rohit Jaswal",
     track: "Track-5: Recent Trends and Innovations in Generative AI",
-    room: "AI Block-105"
+    room: "AI Block-505"
   },
   {
     session: "Technical Session-10",
@@ -700,7 +700,7 @@ const scheduleData3 = [
     title: "Enhancing Autism Diagnosis Using Federated Learning and Multimodal Data Fusion",
     presenter: "Mala Saraswat",
     track: "Track-6: Federated Learning for Predictive Healthcare Paradigm",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -708,7 +708,7 @@ const scheduleData3 = [
     title: "An Examination of Brain Tumor Using the ABC and ANN Algorithms",
     presenter: "Amar Singh",
     track: "Track-6: Federated Learning for Predictive Healthcare Paradigm",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -716,7 +716,7 @@ const scheduleData3 = [
     title: "Fintech Dynamics: Bibliometric Perspectives on Collaboration and Trends in the Digital Economy",
     presenter: "Nivedita Srivastava",
     track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -724,7 +724,7 @@ const scheduleData3 = [
     title: "Optimizing Building Energy Eﬃciency with Kolmogorov-Arnold Network (KAN) backed Regression",
     presenter: "Barun Kanoo",
     track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -732,7 +732,7 @@ const scheduleData3 = [
     title: "An Explainable AI-Centric Approach for Healthcare: A Review",
     presenter: "Sumit Sharma",
     track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -740,7 +740,7 @@ const scheduleData3 = [
     title: "Integrating Explainability in AI for Retinal Imaging: Enhancing Diabetic Retinopathy Diagnosis Accuracy",
     presenter: "Sumit Sharma",
     track: "Track-8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI transforming the next generation connected technologies",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -748,7 +748,7 @@ const scheduleData3 = [
     title: "A Lightweight Deep Learning based Image Captioning Model for Hindi Caption Generation",
     presenter: "Vishal Jayaswal",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -756,7 +756,7 @@ const scheduleData3 = [
     title: "Optimized Text Summarization using BART",
     presenter: "Kanika Sharma",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -764,7 +764,7 @@ const scheduleData3 = [
     title: "Potato Disease Detection by using Deep Learning",
     presenter: "Anshika Agarwal",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-10",
@@ -772,7 +772,7 @@ const scheduleData3 = [
     title: "Emotion Mining: A Framework for Depression Detection",
     presenter: "Sanjana Yadav",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-305"
+    room: "AI Block-507"
   },
   {
     session: "Technical Session-11",
@@ -780,7 +780,7 @@ const scheduleData3 = [
     title: "Eﬀective Scheduling Satisfying User Constraints Using Genetic Algorithm",
     presenter: "Tannu Joshi",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -788,7 +788,7 @@ const scheduleData3 = [
     title: "M.I.N.D.S - Minimal Instance Neural Data System",
     presenter: "Aditya Sharma",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -796,7 +796,7 @@ const scheduleData3 = [
     title: "Skin Sense AI: Detecting Cancerous Skin Diseases using CNN for multiclass classiﬁcation",
     presenter: "Ganga Sharma",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -804,7 +804,7 @@ const scheduleData3 = [
     title: "Multi-Class Medicinal Plant Leaf Classiﬁcation Recognition and Recommendation System Using DNN",
     presenter: "Abhimanyu Singh",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -812,7 +812,7 @@ const scheduleData3 = [
     title: "Customer Behaviour Prediction for E-Commerce Sites using Web Mining and Machine Learning",
     presenter: "Dev Rathour",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -820,7 +820,7 @@ const scheduleData3 = [
     title: "J48-SimpleCart-REPTree:An improved ensemble ML approach for heart disease prediction",
     presenter: "Shweta Pandey",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -828,7 +828,7 @@ const scheduleData3 = [
     title: "Stock Price Prediction using LSTM-based DL model and its comparison with ML algorithms",
     presenter: "Devesh Pandey",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -836,7 +836,7 @@ const scheduleData3 = [
     title: "LSTM-RNN: An ensemble machine learning approach for crop prediction based on soil and weather properties",
     presenter: "Aryan Prasad",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -844,7 +844,7 @@ const scheduleData3 = [
     title: "Heart Disease Prediction using CNN: Performance Comparison and Analysis",
     presenter: "Aryan Tripathi",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-11",
@@ -852,7 +852,7 @@ const scheduleData3 = [
     title: "The Role of Deep Learning Approaches in the Classiﬁcation of Diabetic Retinopathy",
     presenter: "Km Meenakshi",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-317"
+    room: "AI Block-205"
   },
   {
     session: "Technical Session-12",
@@ -860,7 +860,7 @@ const scheduleData3 = [
     title: "Optimizing Diabetes Prediction with Multi-Layer Perceptron: A Comprehensive Analysis on the Pima Indians Dataset",
     presenter: "Monalisha",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -868,7 +868,7 @@ const scheduleData3 = [
     title: "Adaptive OCR-Driven Image Encoders for Enhanced Text-Based Captioning: Achieving High-Precision Descriptions in Text-Rich Visual Contexts",
     presenter: "Anant Tyagi",
     track: "Track-9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -876,7 +876,7 @@ const scheduleData3 = [
     title: "A Prescriptive Deep Leaning-based Architecture for Deepfake Detection",
     presenter: "Aditya Dev Mishra",
     track: "Main Track: ICCSAI2025",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -884,7 +884,7 @@ const scheduleData3 = [
     title: "Analysis of Artiﬁcial Intelligence on Environmental Sustainability",
     presenter: "Kuldeep Singh Kaswan",
     track: "Track 14:Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -892,7 +892,7 @@ const scheduleData3 = [
     title: "Analysis of Artiﬁcial Intelligence on Economical Sustainability",
     presenter: "Nitin Kumar Gaur",
     track: "Track 14:Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -900,7 +900,7 @@ const scheduleData3 = [
     title: "Clustering-based Anomaly Detection for Sensor Networks: A Lightweight Density-Grounded Approach",
     presenter: "Pooja",
     track: "Main Track: ICCSAI2025",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -908,7 +908,7 @@ const scheduleData3 = [
     title: "ADAPTIVE TRAFFIC CONTROL SYSTEM WITH EMERGENCY VEHICLE DETECTION",
     presenter: "Shakshi Chauhan",
     track: "Track 14:Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
-    room: "AI Block-405"
+    room: "AI Block-307"
   },
   {
     session: "Technical Session-12",
@@ -916,7 +916,7 @@ const scheduleData3 = [
     title: "Cognitive Workload Detection Using EEG Images",
     presenter: "Abhinav Sharma",
     track: "Main Track: ICCSAI2025",
-    room: "AI Block-405"
+    room: "AI Block-307"
   }
 ];
 
@@ -924,78 +924,82 @@ const scheduleData3 = [
 
 const Schedule = () => {
   return (
-    <>
+    <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6"> Day-1(9:00 AM- 12.30 PM), 05 April 2025 (Slot 1)</h2>
-        <h2 className="text-lg text-center mb-6 bg-red-600 text-white font-extrabold uppercase px-4 py-2 rounded-lg shadow-lg animate-pulse">
-          OFFLINE
-        </h2>
-
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
-              <th className="border p-2">Track Name</th>
-              <th className="border p-2">Room No.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData3.map((item, index) => (
-              <tr
-                key={index}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
-                <td className="border p-2">{item.track}</td>
-                <td className="border p-2">{item.room}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <h1 className="text-3xl font-bold text-center mb-8 text-red-800">Offline Technical Paper Presentation Schedule</h1>
+        {/* Day 1 - Slot 1 */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-center mb-4">Day 2 (9:00 AM - 12:30 PM), 05 April 2025 (Slot 1)</h2>
+          <div className="bg-red-600 text-white text-center font-bold py-2 px-4 rounded-lg shadow-lg mb-6">
+            OFFLINE - Technical Sessions 1-8
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead>
+                <tr className="bg-red-600 text-white">
+                  <th className="border p-3">Technical Session</th>
+                  <th className="border p-3">Paper ID</th>
+                  <th className="border p-3">Paper Title</th>
+                  <th className="border p-3">Presenter</th>
+                  <th className="border p-3">Track Name</th>
+                  <th className="border p-3">Room No.</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scheduleData3.map((item, index) => (
+                  <tr key={index} className={index % 2 === 0 ? 'bg-red-50' : 'bg-white'}>
+                    <td className="border p-3 text-center">{item.session}</td>
+                    <td className="border p-3 text-center">{item.id}</td>
+                    <td className="border p-3">{item.title}</td>
+                    <td className="border p-3">{item.presenter}</td>
+                    <td className="border p-3">{item.track}</td>
+                    <td className="border p-3">{item.room}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {/* Day 1 - Slot 2 */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold text-center mb-4">Day 2 (12:00 PM - 3:30 PM), 05 April 2025 (Slot 2)</h2>
+          <div className="bg-red-600 text-white text-center font-bold py-2 px-4 rounded-lg shadow-lg mb-6">
+            OFFLINE - Technical Sessions 9-12
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead>
+                <tr className="bg-red-600 text-white">
+                  <th className="border p-3">Technical Session</th>
+                  <th className="border p-3">Paper ID</th>
+                  <th className="border p-3">Paper Title</th>
+                  <th className="border p-3">Presenter</th>
+                  <th className="border p-3">Track Name</th>
+                  <th className="border p-3">Room No.</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scheduleData4
+                  .filter(item => {
+                    const sessionNum = parseInt(item.session.split('-')[1]);
+                    return sessionNum >= 9 && sessionNum <= 12;
+                  })
+                  .map((item, index) => (
+                    <tr key={index} className={index % 2 === 0 ? 'bg-red-50' : 'bg-white'}>
+                      <td className="border p-3 text-center">{item.session}</td>
+                      <td className="border p-3 text-center">{item.id}</td>
+                      <td className="border p-3">{item.title}</td>
+                      <td className="border p-3">{item.presenter}</td>
+                      <td className="border p-3">{item.track}</td>
+                      <td className="border p-3">{item.room}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-      <div className="container mx-auto p-6 overflow-x-auto">
-        <h1 className="text-2xl font-bold text-center mb-4">Technical Paper Presentation Schedule</h1>
-        <h2 className="text-lg text-center mb-6"> Day-2 (12:00 PM- 03.30 PM), 05 April 2025 (Slot 2)</h2>
-        <h2 className="text-lg text-center mb-6 bg-red-600 text-white font-extrabold uppercase px-4 py-2 rounded-lg shadow-lg animate-pulse">
-          OFFLINE
-        </h2>
-
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-red-600 text-white">
-              <th className="border p-2">Technical Session</th>
-              <th className="border p-2">Paper ID</th>
-              <th className="border p-2">Paper Title</th>
-              <th className="border p-2">Presenter</th>
-              <th className="border p-2">Track Name</th>
-              <th className="border p-2">Room No.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {scheduleData4.map((item, index) => (
-              <tr
-                key={index}
-                className={index % 20 < 10 ? 'bg-yellow-100' : 'bg-red-100'}
-              >
-                <td className="border p-2 text-center">{item.session}</td>
-                <td className="border p-2 text-center">{item.id}</td>
-                <td className="border p-2">{item.title}</td>
-                <td className="border p-1">{item.presenter}</td>
-                <td className="border p-2">{item.track}</td>
-                <td className="border p-2">{item.room}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </>
+    </div>
   );
 };
 
