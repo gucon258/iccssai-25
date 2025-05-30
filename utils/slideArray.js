@@ -129,124 +129,60 @@ export const categories = [
 
 export const chairs = [
   {
-    "title": "Track 1: Emerging Trends and Applications in Machine Learning and Deep Learning",
+    "title": "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning",
     "chairpersons": []
   },
   {
-    "title": "Track 2: Immersive Futures: Merging Realities with Intelligent Systems",
+    "title": "Track-2: Immersive Futures: Merging Realities with Intelligent Systems",
     "chairpersons": [
-      "Dr. Bhanu Sharma, Chitkara University, Punjab, India",
-      "Dr. Gurjinder Singh, Chitkara University, Punjab, India"
+      
     ]
   },
   {
-    "title": "Track 3: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
+    "title": "Track-3: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
     "chairpersons": [
-      "Dr. Anurag Dwivedi, Bansal Institute of Engineering and Technology, Lucknow, India",
-      "Dr. Saurabh Kumar, Institute of Engineering and Rural Technology (IERT), Prayagraj, India",
-      "Dr. Punit Kumar Chaubey, Bansal Institute of Engineering and Technology, Lucknow, India"
+      
     ]
   },
   {
-    "title": "Track 4: Innovative and Disruptive Technologies",
+    "title": "Track-4: Innovative and Disruptive Technologies",
     "chairpersons": [
-      "Dr. Amanpreet Kaur, Chitkara University, Punjab, India"
+      
     ]
   },
   {
-    "title": "Track 5: Recent Trends and Innovations in Generative AI",
+    "title": "Track-5: Applications of Generative AI, Transfer Learning and Federated Learning",
     "chairpersons": [
-      "Dr. Vandana Sharma, Christ University, Delhi-NCR Campus, India",
-      "Dr. Upinder Kaur, Akal University, Talwandi Sabo"
+      
     ]
   },
   {
-    "title": "Track 6: Federated Learning for Predictive Healthcare Paradigm",
+    "title": "Track-6: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques and Applications",
     "chairpersons": [
-      "Dr. Balamurugan Balasamy, Shiv Nadar University, Delhi-NCR Campus, Noida, India",
-      "Dr. Seema Rawat, Amity University, Uttar Pradesh, Noida, India",
-      "Dr. Prithi Samuel, SRM Institute of Science and Technology, Kattankulathur, Chennai, India",
-      "Dr. Firoz Khan, Center for Information & Communication Sciences, Ball State University, USA"
+
     ]
   },
   {
-    "title": "Track 7: Advances in Adversarial and Multi-Source Transfer Learning for Secure and Robust Modern Healthcare System",
+    "title": "Track-7: Transformation with AI, Deep Learning Breakthroughs and Real World Applications",
     "chairpersons": [
-      "Dr. Ganesh Gopal Devarajan, SRM Institute of Science and Technology, Delhi-NCR Campus, India",
-      "Dr. Rajendra Prasad Mahapatra, SRM Institute of Science and Technology, Delhi-NCR Campus, India"
-    ]
+       ]
   },
   {
-    "title": "Track 8: Emerging Trends with Generative AI, Multimodal Federated Intelligence, and XAI Transforming the Next Generation Connected Technologies",
+    "title": "Track-8: Blockchain, Cybersecurity, and AI: Building Resilient Systems for the Future",
     "chairpersons": [
-      "Dr. Nagresh Kumar, Amity University, India",
-      "Dr. Hemant Kumar Saini, Amity University, India"
-    ]
+      ]
   },
   {
-    "title": "Track 9: Machine Learning and Deep Learning: Methods, Designs, Implementations, Techniques, and Applications",
+    "title": "Track-9: Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
     "chairpersons": [
-      "Dr Varun Malik, Chitkara University, Punjab, India ",
-      "Dr. Jagjit Singh Dhatterwal, Koneru Lakshmaiah Education Foundation, Vaddeswaram, Andhra Pradesh, India ",
-      "Dr Kiran Malik, GL Bajaj Institute of Technology & Management, Greater Noida, India "
-    ]
+     ]
   },
   {
-    "title": "Track 10: Sustainable Smart EdTech Ecosystems: Innovations in Communication, Security, AI, and Management Practices",
+    "title": "Track-10: Next-Gen Technologies and IoT for a Sustainable and Intelligent Future",
     "chairpersons": [
-      "Dr. Amruta Deshpande, Director Research and Development, Indira Group of Institutes, Pune, India",
-      "Dr. Rajesh Raut, HOD, Research and Development, MIT School of Distance Education, Pune, India",
-      "Dr. Natasha Kaul, Symbiosis Centre for Management and Human Resource Development, Pune, India"
     ]
-  },
-  {
-    "title": "Track 11: The Convergence of Generative AI and Quantum Computing: Unlocking the Next Frontier of Innovation",
-    "chairpersons": [
-      "Dr. Anitha Julian, Saveetha Engineering College, Tamilnadu, India",
-      "Dr. Ramyadevi R, Saveetha Engineering College, Tamilnadu, India",
-      "Dr. T. Ganesh Kumar, School of Computer Science and Engineering, Galgotias University, Greater Noida, India",
-      "Dr. Priti Rishi, SRM Institute of Science and Technology, Vadapalani Campus, Chennai, India"
-    ]
-  },
-  {
-    "title": "Track 12: Transformation with AI, Deep Learning Breakthroughs and Real World Applications",
-    "chairpersons": [
-      "Dr. P Priviletha, Sathyabama Institute of Science and Technology, Chennai, Tamilnadu, India",
-      "Dr. T. Ganesh Kumar, School of Computer Science and Engineering, Galgotias University, Greater Noida, India",
-      "Dr. Shajilin Loret, Francis Xavier Engineering College, Tirunelveli, Tamilnadu, India",
-      "Dr. Manish T.I, Department of Computer Science and Engineering, SCMS, School of Engineering and Technology, Kerala"
-    ]
-  },
-  {
-    "title": "Track 13: Blockchain, Cybersecurity, and AI: Building Resilient Systems for the Future",
-    "chairpersons": [
-      "Dr Varun Malik, Chitkara University, Punjab, India ",
-      "Dr. Gunjan Chhabra, Department of CSE, Graphic Era Hill University. Dehradun, Uttarakhand, India "
-    ]
-  },
-  {
-    "title": "Track 14: Revolutionizing Industries: Deep Learning, LLMs, and Federated Learning in Healthcare, Agriculture, Intelligent Systems, and Beyond",
-    "chairpersons": [
-      "Dr. Ashutosh Kumar Singh, Department of Computer Science, ADC, University of Allahabad, India ",
-      "Dr. Naveen Kumar, Department of CSE, SV National Institute of Technology. Surat, Gujrat, India "
-    ]
-  },
-  {
-    "title": "Track 15: Revolutionizing Connectivity: The Power of IIoT, IoT, and IMOT for a Sustainable Future",
-    "chairpersons": [
-      "Dr. Abhishek Sharma, PCE, JAIPUR, India ",
-      "Dr. Nikita Jain, PCE, JAIPUR, India ",
-      "Dr. Aryan Chaudhary, Chief Scientific Advisor Bio Tech Sphere Research, India"
-    ]
-  },
-  {
-    "title": "Track 16: Emerging Electrical and Electronic Technologies for Innovations, and Energy and Environmental Sustainability",
-    "chairpersons": []
   }
-]
-
-
-export default { data, events };
+];
 
 export const cards = [
   
@@ -620,107 +556,15 @@ export const cards = [
     organization: "National Institute of Technology, Delhi, India"
   },
   {
-    name: "Prof. T. Poongodi",
-    organization: "Dayananda Sagar University, Bangalore, India."
-  },
-  {
-    name: "Prof. Mayank Pandey",
-    position: "Computer Science & Engg.",
-    organization: "MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. Y. K. Prajapati",
-    position: "Electronics & Comm. Engg.",
-    organization: "MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. Ela Kumar",
-    position: "CSE",
-    organization: "IGDTUW, Delhi, India"
-  },
-  {
-    name: "Prof. R.K. Nagaria",
-    position: "ECE",
-    organization: "MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. Mayank Pandey",
-    position: "Computer Science & Engg.",
-    organization: "MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. Arvind Pandey",
-    position: "Director",
-    organization: "BIT, Gorakhpur, India"
-  },
-  {
-    name: "Prof. Arvind Pandey",
-    position: "Director",
-    organization: "BIT, Gorakhpur, India"
-  },
-  {
-    name: "Prof. Shashank Srivastava",
-    position: "BIT",
-    organization: "Gorakhpur, India"
-  },
-  {
-    name: "Dr. Dushyant Kumar Singh",
-    position: "Associate Professor",
-    organization: "Computer Science & Engg., MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. Nidhi Goel",
-    position: "Head of Department",
-    organization: "Electronics & Communication Engineering, IGDTUW, Delhi, India"
-  },
-  {
-    name: "Prof. S. K. Srivastava",
-    position: "PROFESSOR",
-    organization: "Department of Electrical Engineering, MMMUT, Gorakhpur, India"
-  },
-  {
-    name: "Prof. Vandana Niranjan",
-    position: "Professor",
-    organization: "Electronics & Communication Engineering, IGDTUW, Delhi, India"
-  },
-  {
-    name: "Prof. SRN Reddy",
-    position: "COMPUTER SCIENCE AND ENGINEERING",
-    organization: "IGDTUW, Delhi, India"
-  },
-  {
-    name: "Prof. Bhawna Narwal",
-    position: "Department of Information Technology",
-    organization: "IGDTUW, Delhi, India"
-  },
-  {
-    name: "Dr. Vimal Kumar Singh Yadav",
-    position: "Department of Electronics and Communication Engineering",
-    organization: "MNNIT, Prayagraj, India"
-  },
-  {
-    name: "Prof. (Dr.) Chandra Prakash",
-    position: "National Institute of Technology",
-    organization: "Delhi, India"
-  },
-  
-  {
-    name: "Prof. (Dr.) Sahil",
-    organization: "National Institute of Technology, Delhi, India"
-  },
-  
-  {
     name: "Prof. Karuna Kadian",
     position: "COMPUTER SCIENCE AND ENGINEERING",
     organization: "IGDTUW, Delhi, India"
   },
-  
   {
     name: "Dr. Satish Chandra",
     position: "Department of Electronics and Communication Engineering",
     organization: "MNNIT, Prayagraj, India"
   },
-  
   {
     name: "Prof. Anil Kumar Sagar",
     position: "Sharda University",
@@ -732,44 +576,36 @@ export const cards = [
     organization: "Asia Pacific University, Malaysia",
     imgSrc: "/ImportantPersons/chin.jpeg"
   },
-  
   {
     name: "Dr. Savita Yadav",
     position: "Netaji Subhas University of Technology",
     organization: "Delhi, India"
   },
-  
   {
     name: "Prof. Anurag Diwedi",
     organization: "BIET, Lucknow, India"
   },
-  
   {
     name: "Prof. Arvind Pandey",
     position: "Director",
     organization: "BIT, Gorakhpur India"
   },
-  
   {
     name: "Prof. Shashank Srivastav",
     organization: "BIT, Gorakhpur, India"
   },
-  
   {
     name: "Prof. Deependra Rastogi",
     organization: "IILM University, India"
   },
-  
   {
     name: "Prof. N.Gayathri",
     organization: "GITAM University, Bangalore, India"
   },
-  
   {
     name: "Prof. S.Rakesh Kumar",
     organization: "GITAM University, Bangalore, India"
   },
-  
   {
     name: "Prof. Anoop Kumar Patel",
     organization: "NIT Kurukshetra, India"
@@ -949,7 +785,8 @@ export const cards = [
   },
   {
     name : "Dr. Smita",
-    organization : "Galgotias University"
+    organization : "Galgotias University",
+    imgSrc: "/ImportantPersons/drsmita.jpg"
   },
   {
     name : "Dr. Shachi Mall",
@@ -959,7 +796,7 @@ export const cards = [
     name: "Dr. Anil Kumar Tripathi",
     position:"Professor",
     organization:"IIT BHU, Varanasi, India",
-    imgSrc: "/ImportantPersons/anilkumartripathi.jpeg",
+    imgSrc: "/ImportantPersons/",
   }
   ,{
     name: "Dr. Mohammad Rihan",
@@ -1004,3 +841,5 @@ export const sponsors = [
   { name: 'Sponsor 5', logo: '/Sponser Logos/innovative.png' },
   // ... more sponsors
 ];
+
+export default { data, events };

@@ -12,36 +12,55 @@ const Page = () => {
         </p>
       </div>
 
-      <div className="max-w-[90%] mx-auto my-6 flex flex-col md:flex-row gap-6">
-  {/* Paper Formatting Guidelines */}
-  <div className="bg-gradient-to-b from-[#FF3A3A] to-[#FE7448] text-white p-6 md:p-8 flex-1 rounded-lg shadow-md">
-    <h2 className="text-xl md:text-2xl font-bold flex items-center tracking-tight">
-      ● Paper Formatting Guidelines
-      <span className="ml-auto cursor-pointer hover:scale-105 transition-transform">⬇</span>
-    </h2>
-    <ul className="list-decimal pl-5 text-sm md:text-base font-medium mt-4 space-y-2 leading-snug">
-      <li>Paper Size: US Letter (8.5" × 11").</li>
-      <li>Paper Length: Maximum of 6 pages, including figures, tables, and references. Two additional pages are permitted with a charge of ₹1000 per page (Indian authors) or $50 per page (International authors).</li>
-      <li>Formatting: Double-column layout, single-spaced, using 10pt Times New Roman font.</li>
-      <li>Margins: Top: 1" (25 mm) on the title page; 0.75" (19 mm) elsewhere. Left, Right, and Bottom margins: 0.75" (19 mm).</li>
-      <li>File Format: PDF, with a maximum size of 5MB. All fonts must be embedded.</li>
-      <li>No page numbering should be included in the manuscript.</li>
-      <li>Use the IEEE MS Word template provided via the link above for proper formatting.</li>
-    </ul>
-    
-    {/* Download Button with Link */}
-    <a 
-      href="https://www.ieee.org/conferences/publishing/templates.html" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="inline-block mt-6"
-    >
-      <button className="bg-[#FFFFFF] text-red-600 px-4 py-2 ml-8 rounded-lg text-base font-medium flex items-center hover:bg-red-100 transition-colors">
-        <span className="mr-2">⬇</span> Download Template
-      </button>
-    </a>
-  </div>
+      {/* IEEE Similarity and Plagiarism Policies Section */}
+      <div className="max-w-[90%] mx-auto my-6 bg-white p-6 rounded-lg shadow-md border-l-4 border-red-600">
+        <h2 className="text-xl md:text-2xl font-bold text-red-600 tracking-tight mb-4">
+          IEEE Similarity and Plagiarism Policies
+        </h2>
+        <p className="text-gray-700 mb-4">
+          All submissions are subject to IEEE's similarity and plagiarism policies. Authors must ensure their work adheres to IEEE's ethical standards for publication.
+        </p>
+        <a 
+          href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block"
+        >
+          <button className="bg-gradient-to-r from-[#FF3A3A] to-[#FE7448] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:opacity-90 transition-opacity">
+            <span className="mr-2">→</span> View IEEE Plagiarism Policies
+          </button>
+        </a>
+      </div>
 
+      <div className="max-w-[90%] mx-auto my-6 flex flex-col md:flex-row gap-6">
+        {/* Paper Formatting Guidelines */}
+        <div className="bg-gradient-to-b from-[#FF3A3A] to-[#FE7448] text-white p-6 md:p-8 flex-1 rounded-lg shadow-md">
+          <h2 className="text-xl md:text-2xl font-bold flex items-center tracking-tight">
+            ● Paper Formatting Guidelines
+            <span className="ml-auto cursor-pointer hover:scale-105 transition-transform">⬇</span>
+          </h2>
+          <ul className="list-decimal pl-5 text-sm md:text-base font-medium mt-4 space-y-2 leading-snug">
+            <li>Paper Size: US Letter (8.5" × 11").</li>
+            <li>Paper Length: Maximum of 6 pages, including figures, tables, and references. Two additional pages are permitted with a charge of ₹1000 per page (Indian authors) or $50 per page (International authors).</li>
+            <li>Formatting: Double-column layout, single-spaced, using 10pt Times New Roman font.</li>
+            <li>Margins: Top: 1" (25 mm) on the title page; 0.75" (19 mm) elsewhere. Left, Right, and Bottom margins: 0.75" (19 mm).</li>
+            <li>File Format: PDF, with a maximum size of 5MB. All fonts must be embedded.</li>
+            <li>No page numbering should be included in the manuscript.</li>
+            <li>Use the IEEE MS Word template provided via the link above for proper formatting.</li>
+          </ul>
+          
+          {/* Download Button with Link */}
+          <a 
+            href="https://www.ieee.org/conferences/publishing/templates.html" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block mt-6"
+          >
+            <button className="bg-[#FFFFFF] text-red-600 px-4 py-2 ml-8 rounded-lg text-base font-medium flex items-center hover:bg-red-100 transition-colors">
+              <span className="mr-2">⬇</span> Download Template
+            </button>
+          </a>
+        </div>
 
         {/* General Instructions */}
         <div className="bg-gray-100 p-6 md:p-8 rounded-lg flex-1 shadow-md">
@@ -86,17 +105,17 @@ const Page = () => {
         </div>
 
         {/* Download Button */}
-        
         <a 
-  href="https://iccsai.in/assets/docs/ieee-copyright-process.pdf" 
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-4 md:mt-0"> 
-  <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
-    <span className="mr-2">⬇</span> Download Here
-  </button>
-</a></div>
-      
+          href="https://iccsai.in/assets/docs/ieee-copyright-process.pdf" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 md:mt-0"
+        > 
+          <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
+            <span className="mr-2">⬇</span> Download Here
+          </button>
+        </a>
+      </div>
 
       <div className="max-w-[90%] mx-auto bg-gradient-to-t from-[#FF3A3A] to-[#FE7448] my-6 p-6 text-white shadow-md rounded-lg">
         <ul className="list-disc pl-5 space-y-2 text-sm md:text-base leading-snug">

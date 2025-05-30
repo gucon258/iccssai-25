@@ -21,6 +21,9 @@ const Navbar = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsDropdownOpen(false);
       }
+      if (dropdownRef1.current && !dropdownRef1.current.contains(event.target)) {
+        setIsDropdownOpen1(false);
+      }
       if (isOpen && mobileNavRef.current && !mobileNavRef.current.contains(event.target) && !event.target.closest('button[aria-label="Toggle menu"]')) {
         setIsOpen(false);
       }
@@ -33,7 +36,7 @@ const Navbar = () => {
   // Close mobile menu when resizing to large screens
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) { // Changed from 768 to 1024
+      if (window.innerWidth >= 1024) {
         setIsOpen(false);
       }
     };
@@ -60,7 +63,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gradient-to-r from-[#BE2727] to-[#F96604] sticky top-0 z-50 w-full px-4 py-2 shadow-lg">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      {/* Added container with better width control for larger screens */}
+      <div className="mx-auto w-full max-w-screen-xl 2xl:max-w-screen-2xl flex justify-between items-center">
         {/* Logo Section - Improved Logo Sizing */}
         <div className="flex items-center">
           <Link href="/#">
@@ -78,7 +82,7 @@ const Navbar = () => {
 
         {/* Hamburger Icon for Mobile and Tablets */}
         <button
-          className="lg:hidden text-white focus:outline-none" // Changed from md:hidden to lg:hidden
+          className="lg:hidden text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -94,7 +98,7 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="lg:hidden fixed left-0 top-[60px] w-full  bg-gradient-to-r from-[#BE2727] to-[#F96604] overflow-y-auto" // Changed from md:hidden to lg:hidden
+              className="lg:hidden fixed left-0 top-[60px] w-full bg-gradient-to-r from-[#BE2727] to-[#F96604] overflow-y-auto"
             >
               <ul className="flex flex-col gap-6 font-semibold text-center p-8">
                 <li>
@@ -171,8 +175,7 @@ const Navbar = () => {
                         className="w-full bg-gray-800 text-white rounded-md shadow-lg mt-2 overflow-hidden"
                       >
                         <Link href="/schedule/online" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">TS-Online
-                          </div>
+                          <div className="px-4 py-3 hover:bg-gray-700">TS-Online</div>
                         </Link>
                         <Link href="/schedule/offline" onClick={closeMenu}>
                           <div className="px-4 py-3 hover:bg-gray-700">TS-Offline</div>
@@ -203,14 +206,14 @@ const Navbar = () => {
           )}
         </AnimatePresence>
 
-               {/* Navbar Links for Desktop */}
-        <div className="hidden lg:flex lg:items-center lg:gap-6"> {/* Changed from md:flex to lg:flex */}
-          <ul className="flex flex-row gap-4 lg:gap-6 font-semibold text-left">
+        {/* Navbar Links for Desktop - Improved spacing for large screens */}
+        <div className="hidden lg:flex lg:items-center lg:gap-6 2xl:justify-center 2xl:flex-1">
+          <ul className="flex flex-row gap-4 xl:gap-8 2xl:gap-12 font-semibold text-left">
             <Link href="/#">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">Home</li>
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">Home</li>
             </Link>
             <Link href="/registration">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
                 Registration
               </li>
             </Link>
@@ -222,13 +225,13 @@ const Navbar = () => {
               onMouseLeave={() => setIsDropdownOpen(false)}
               ref={dropdownRef}
             >
-              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
+              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
                 Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
               </span>
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
+                className={`absolute top-6 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800 ease-in-out ${
                   isDropdownOpen
                     ? "opacity-100 visible translate-y-0"
                     : "opacity-0 invisible -translate-y-2 pointer-events-none"
@@ -244,7 +247,7 @@ const Navbar = () => {
             </li>
 
             <Link href="/guidelines">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
                 Guidelines
               </li>
             </Link>
@@ -252,7 +255,7 @@ const Navbar = () => {
               href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
               target="_blank"
             >
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap">
+              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
                 ICCSAI-2023
               </li>
             </Link>
@@ -262,13 +265,13 @@ const Navbar = () => {
               onMouseLeave={() => setIsDropdownOpen1(false)}
               ref={dropdownRef1}
             >
-              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap">
+              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
                 Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen1 ? 'rotate-180' : ''}`} />
               </span>
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute top-4 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800  ease-in-out ${
+                className={`absolute top-6 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800 ease-in-out ${
                   isDropdownOpen1
                     ? "opacity-100 visible translate-y-0"
                     : "opacity-0 invisible -translate-y-2 pointer-events-none"
@@ -278,7 +281,7 @@ const Navbar = () => {
                   <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">TS-Offline</div>
                 </Link>
                 <Link href="/schedule/online">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">TS-Online</div>
+                  <div className="px-4 py-2 hover:bg-gray-300">TS-Online</div>
                 </Link>
                 <Link href="/schedule/keynote">
                   <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Keynote</div>
@@ -288,13 +291,13 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Submit Button Desktop */}
-        <div className="hidden lg:flex"> {/* Changed from md:flex to lg:flex */}
+        {/* Submit Button Desktop - Improved for larger screens */}
+        <div className="hidden lg:flex">
           <a
             href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
             target="_blank"
           >
-            <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-normal rounded-xl px-3 lg:px-4 py-2 transition-all duration-300 ease-in-out whitespace-nowrap text-sm lg:text-base">
+            <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-normal rounded-xl px-4 py-2 xl:px-6 xl:py-3 transition-all duration-300 ease-in-out whitespace-nowrap text-base xl:text-lg">
               Submit your paper
             </button>
           </a>
@@ -303,6 +306,5 @@ const Navbar = () => {
     </nav>
   );
 };
-
 
 export default Navbar;

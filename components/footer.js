@@ -18,11 +18,11 @@ const Footer = () => {
           </div>
           <div>
             <a href="https://www.galgotiasieee.org/events/event-1">
-              <img 
+              {/* <img 
                 src="https://res.cloudinary.com/dgna3swph/image/upload/v1743326940/Young_minds_lv7cc3.png" 
                 alt="Young Minds logo" 
                 className='h-1/2 md:h-full w-full'
-              />
+              /> */}
             </a>
           </div>
         </div>
