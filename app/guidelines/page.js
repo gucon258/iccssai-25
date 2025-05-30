@@ -12,6 +12,7 @@ const Page = () => {
         </p>
       </div>
 
+<<<<<<< HEAD
       {/* IEEE Similarity and Plagiarism Policies Section */}
       <div className="max-w-[90%] mx-auto my-6 bg-white p-6 rounded-lg shadow-md border-l-4 border-red-600">
         <h2 className="text-xl md:text-2xl font-bold text-red-600 tracking-tight mb-4">
@@ -32,6 +33,8 @@ const Page = () => {
         </a>
       </div>
 
+=======
+>>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
       <div className="max-w-[90%] mx-auto my-6 flex flex-col md:flex-row gap-6">
         {/* Paper Formatting Guidelines */}
         <div className="bg-gradient-to-b from-[#FF3A3A] to-[#FE7448] text-white p-6 md:p-8 flex-1 rounded-lg shadow-md">
@@ -84,6 +87,41 @@ const Page = () => {
         </div>
       </div>
 
+      {/* IEEE Similarity and Plagiarism Policies Section */}
+      <div className="max-w-[90%] mx-auto my-8 flex flex-col md:flex-row items-center bg-gray-200 p-4 rounded-lg shadow-md">
+        {/* Same Logo as Copyright section */}
+        <div className="flex-shrink-0 mb-4 md:mb-0">
+          <img
+            src="/logos/iccsai_logo.png"
+            alt="ICCSAI Logo"
+            className="size-16 md:size-20 rounded-lg"
+          />
+        </div>
+
+        {/* Text Content */}
+        <div className="ml-4 flex-1 text-center md:text-left">
+          <h2 className="text-xl md:text-2xl font-bold text-black tracking-tight">
+            IEEE Similarity and Plagiarism Policies
+          </h2>
+          <p className="text-base md:text-lg text-red-600">
+            Guidelines for Maintaining Academic Integrity
+          </p>
+        </div>
+
+        {/* View Button - Updated text */}
+        <a 
+          href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 md:mt-0"
+        > 
+          <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
+            <span className="mr-2">→</span> Redirect to Link
+          </button>
+        </a>
+      </div>
+
+      {/* IEEE E-Copyright Process - Updated link and button text */}
       <div className="max-w-[90%] mx-auto my-8 flex flex-col md:flex-row items-center bg-gray-200 p-4 rounded-lg shadow-md">
         {/* Logo */}
         <div className="flex-shrink-0 mb-4 md:mb-0">
@@ -104,15 +142,25 @@ const Page = () => {
           </p>
         </div>
 
+<<<<<<< HEAD
         {/* Download Button */}
         <a 
           href="https://iccsai.in/assets/docs/ieee-copyright-process.pdf" 
+=======
+        {/* Download Button - Updated link and text */}
+        <a 
+          href="https://www.ieee.org/publications/rights/copyright-policy.html" 
+>>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 md:mt-0"
         > 
           <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
+<<<<<<< HEAD
             <span className="mr-2">⬇</span> Download Here
+=======
+            <span className="mr-2">→</span> Redirect to Link
+>>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
           </button>
         </a>
       </div>
