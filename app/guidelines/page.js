@@ -12,29 +12,6 @@ const Page = () => {
         </p>
       </div>
 
-<<<<<<< HEAD
-      {/* IEEE Similarity and Plagiarism Policies Section */}
-      <div className="max-w-[90%] mx-auto my-6 bg-white p-6 rounded-lg shadow-md border-l-4 border-red-600">
-        <h2 className="text-xl md:text-2xl font-bold text-red-600 tracking-tight mb-4">
-          IEEE Similarity and Plagiarism Policies
-        </h2>
-        <p className="text-gray-700 mb-4">
-          All submissions are subject to IEEE's similarity and plagiarism policies. Authors must ensure their work adheres to IEEE's ethical standards for publication.
-        </p>
-        <a 
-          href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-block"
-        >
-          <button className="bg-gradient-to-r from-[#FF3A3A] to-[#FE7448] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:opacity-90 transition-opacity">
-            <span className="mr-2">→</span> View IEEE Plagiarism Policies
-          </button>
-        </a>
-      </div>
-
-=======
->>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
       <div className="max-w-[90%] mx-auto my-6 flex flex-col md:flex-row gap-6">
         {/* Paper Formatting Guidelines */}
         <div className="bg-gradient-to-b from-[#FF3A3A] to-[#FE7448] text-white p-6 md:p-8 flex-1 rounded-lg shadow-md">
@@ -142,25 +119,15 @@ const Page = () => {
           </p>
         </div>
 
-<<<<<<< HEAD
-        {/* Download Button */}
-        <a 
-          href="https://iccsai.in/assets/docs/ieee-copyright-process.pdf" 
-=======
         {/* Download Button - Updated link and text */}
         <a 
           href="https://www.ieee.org/publications/rights/copyright-policy.html" 
->>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 md:mt-0"
         > 
           <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
-<<<<<<< HEAD
-            <span className="mr-2">⬇</span> Download Here
-=======
             <span className="mr-2">→</span> Redirect to Link
->>>>>>> 72f6159520e85dd9436c7a2e1be47c8cc4be205b
           </button>
         </a>
       </div>
