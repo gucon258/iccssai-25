@@ -1,6 +1,6 @@
 
 # WebWars
-## Project Name - ICCSAI WEBWARS 2025
+## Project Name - ICCSAI WEBWARS 2026
 ## Team - Geeky Nomads
 ### Member List-
 * Shivam Kumar - Leader

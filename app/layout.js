@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ICCSAI 2025",
-  description: "Official website for the ICCSAI-2025.",
+  title: "ICCSAI 2026",
+  description: "Official website for the 2026 IEEE 4th International Conference on Communication, Security, and Artificial Intelligence (ICCSAI-2026).",
 };
 
 export default function RootLayout({ children }) {
@@ -24,12 +24,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-        >
+      >
         <MaxWidthWrapper>
-        <Navbar/> 
-        {children}
-        <Footer/>
-      </MaxWidthWrapper>
+          <Navbar />
+          {children}
+          <Footer />
+        </MaxWidthWrapper>
       </body>
     </html>
   );

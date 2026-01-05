@@ -68,7 +68,7 @@ const ConferenceSchedule = () => {
     let scheduleData;
     let dayTitle;
     let dayDate;
-    
+
     if (activeDay === "day1") {
       scheduleData = day1Schedule;
       dayTitle = "Day-1 (Online Sessions)";
@@ -116,28 +116,28 @@ const ConferenceSchedule = () => {
   return (
     <div className="p-6 max-w-6xl mx-auto bg-white shadow-lg rounded-lg">
       <div className="text-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">2025 3rd International Conference on Communication, Security, and Artificial Intelligence</h2>
-        <h3 className="text-xl font-bold text-blue-600">(ICCSAI - 2025)</h3>
+        <h2 className="text-2xl font-bold text-gray-800">2026 IEEE 4th International Conference on Communication, Security, and Artificial Intelligence</h2>
+        <h3 className="text-xl font-bold text-blue-600">(ICCSAI - 2026)</h3>
         <p className="text-md font-semibold text-gray-700 mt-2">Conference Record #64074</p>
         <p className="text-md font-semibold text-red-600">Venue: Galgotias University, Greater Noida, U.P., India</p>
         <p className="text-sm font-medium text-gray-500 mt-2 italic">All timings are in IST (GMT+5:30)</p>
       </div>
 
       <div className="flex justify-center mb-6 space-x-4">
-        <button 
-          onClick={() => setActiveDay("day1")} 
+        <button
+          onClick={() => setActiveDay("day1")}
           className={`px-4 py-2 rounded-md ${activeDay === "day1" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-gray-300"}`}
         >
           Day 1 (Apr 4)
         </button>
-        <button 
-          onClick={() => setActiveDay("day2")} 
+        <button
+          onClick={() => setActiveDay("day2")}
           className={`px-4 py-2 rounded-md ${activeDay === "day2" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-gray-300"}`}
         >
           Day 2 (Apr 5)
         </button>
-        <button 
-          onClick={() => setActiveDay("day3")} 
+        <button
+          onClick={() => setActiveDay("day3")}
           className={`px-4 py-2 rounded-md ${activeDay === "day3" ? "bg-blue-600 text-white" : "bg-gray-200 hover:bg-gray-300"}`}
         >
           Day 3 (Apr 6)

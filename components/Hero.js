@@ -26,7 +26,7 @@ const Hero = () => {
             <h2>About Galgotias University</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2025 reinforces this mission by fostering knowledge exchange and innovation.</p>
+            <p>Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2026 reinforces this mission by fostering knowledge exchange and innovation.</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Hero = () => {
             <h2>CONFERENCE OBJECTIVE</h2>
           </div>
           <div className='h-auto py-2 md:py-5 lg:h-2/3 w-full flex justify-start items-start text-xs sm:text-sm md:text-base lg:text-2xl text-white'>
-            <p>ICCSAI-2025 is a non-profit international conference designed to advance knowledge in Computer & Communication Engineering. With multiple tracks covering diverse topics in computing, communication, information security, and artificial intelligence, the conference fosters global collaboration and sets new directions in research.</p>
+            <p>ICCSAI-2026 is a non-profit international conference designed to advance knowledge in Computer & Communication Engineering. With multiple tracks covering diverse topics in computing, communication, information security, and artificial intelligence, the conference fosters global collaboration and sets new directions in research.</p>
           </div>
         </div>
       </div>
