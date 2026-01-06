@@ -69,9 +69,9 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href="/#">
             <div className="relative w-[150px] h-[40px] sm:w-[180px] sm:h-[45px] md:w-[200px] md:h-[50px] lg:w-[225px] lg:h-[55px]">
-              <Image 
-                src={iccsailogo} 
-                alt="ICCSAI Logo" 
+              <Image
+                src={iccsailogo}
+                alt="ICCSAI Logo"
                 fill
                 style={{ objectFit: 'contain' }}
                 priority
@@ -107,9 +107,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/registration" onClick={closeMenu}>
-                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">Registration</span>
-                  </Link>
+                  <span className="text-gray-400 text-lg cursor-not-allowed">Registration (Coming Soon)</span>
                 </li>
 
                 {/* Dropdown for Committee */}
@@ -118,7 +116,7 @@ const Navbar = () => {
                     className="text-white text-lg hover:text-gray-200 flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   >
-                    Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''} `}/>
+                    Committee <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''} `} />
                   </div>
 
                   {/* Dropdown Menu */}
@@ -134,9 +132,7 @@ const Navbar = () => {
                         <Link href="/committee/members" onClick={closeMenu}>
                           <div className="px-4 py-3 hover:bg-gray-700">Members</div>
                         </Link>
-                        <Link href="/committee/speakers" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">Speakers</div>
-                        </Link>
+                        <div className="px-4 py-3 text-gray-400 cursor-not-allowed">Speakers (Coming Soon)</div>
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -149,58 +145,30 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
+                    href="https://ieeexplore.ieee.org/xpl/conhome/11063690/proceeding"
                     target="_blank"
                     onClick={closeMenu}
                   >
-                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">ICCSAI-2023</span>
+                    <span className="text-white text-lg hover:text-gray-200 transition-colors duration-200">ICCSAI-2025</span>
                   </Link>
                 </li>
                 <li className="relative">
                   <div
-                    className="text-white text-lg hover:text-gray-200 flex items-center justify-center gap-1 cursor-pointer transition-colors duration-200"
-                    onClick={() => setIsDropdownOpen1(!isDropdownOpen1)}
+                    className="text-gray-400 text-lg flex items-center justify-center gap-1 cursor-not-allowed"
                   >
-                    Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen1 ? 'rotate-180' : ''} `}/>
+                    Schedule (Coming Soon)
                   </div>
-
-                  {/* Dropdown Menu */}
-                  <AnimatePresence>
-                    {isDropdownOpen1 && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="w-full bg-gray-800 text-white rounded-md shadow-lg mt-2 overflow-hidden"
-                      >
-                        <Link href="/schedule/online" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">TS-Online</div>
-                        </Link>
-                        <Link href="/schedule/offline" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">TS-Offline</div>
-                        </Link>
-                        <Link href="/schedule/keynote" onClick={closeMenu}>
-                          <div className="px-4 py-3 hover:bg-gray-700">Keynote</div>
-                        </Link>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
                 </li>
               </ul>
 
-              {/* Submit Button in Mobile Menu */}
+              {/* Submit Button in Mobile Menu - Disabled */}
               <div className="flex justify-center mt-4 mb-8">
-                <a
-                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
-                  target="_blank"
-                  className="w-4/5"
-                  onClick={closeMenu}
+                <button
+                  className="w-4/5 bg-gray-500 text-gray-300 font-medium rounded-xl px-4 py-3 cursor-not-allowed opacity-60"
+                  disabled
                 >
-                  <button className="w-full bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-medium rounded-xl px-4 py-3 transition-all duration-300 ease-in-out">
-                    Submit your paper
-                  </button>
-                </a>
+                  Submit (Coming Soon)
+                </button>
               </div>
             </motion.div>
           )}
@@ -212,11 +180,9 @@ const Navbar = () => {
             <Link href="/#">
               <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">Home</li>
             </Link>
-            <Link href="/registration">
-              <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
-                Registration
-              </li>
-            </Link>
+            <li className="text-gray-300 cursor-not-allowed whitespace-nowrap text-base xl:text-lg opacity-60">
+              Registration (Coming Soon)
+            </li>
 
             {/* Dropdown for Committee */}
             <li
@@ -231,18 +197,15 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute top-6 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800 ease-in-out ${
-                  isDropdownOpen
-                    ? "opacity-100 visible translate-y-0"
-                    : "opacity-0 invisible -translate-y-2 pointer-events-none"
-                }`}
+                className={`absolute top-6 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800 ease-in-out ${isDropdownOpen
+                  ? "opacity-100 visible translate-y-0"
+                  : "opacity-0 invisible -translate-y-2 pointer-events-none"
+                  }`}
               >
                 <Link href="/committee/members">
                   <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">Members</div>
                 </Link>
-                <Link href="/committee/speakers">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Speakers</div>
-                </Link>
+                <div className="px-4 py-2 text-gray-400 cursor-not-allowed rounded-b-md">Speakers (Coming Soon)</div>
               </div>
             </li>
 
@@ -252,55 +215,29 @@ const Navbar = () => {
               </li>
             </Link>
             <Link
-              href="https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding"
+              href="https://ieeexplore.ieee.org/xpl/conhome/11063690/proceeding"
               target="_blank"
             >
               <li className="text-white hover:text-gray-200 transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
-                ICCSAI-2023
+                ICCSAI-2025
               </li>
             </Link>
-            <li
-              className="relative"
-              onMouseEnter={() => setIsDropdownOpen1(true)}
-              onMouseLeave={() => setIsDropdownOpen1(false)}
-              ref={dropdownRef1}
-            >
-              <span className="text-white hover:text-gray-200 flex items-center gap-1 cursor-pointer transition-colors duration-200 whitespace-nowrap text-base xl:text-lg">
-                Schedule <ChevronDown size={16} className={`transition-transform duration-300 ${isDropdownOpen1 ? 'rotate-180' : ''}`} />
+            <li className="relative">
+              <span className="text-gray-300 flex items-center gap-1 cursor-not-allowed whitespace-nowrap text-base xl:text-lg opacity-60">
+                Schedule (Coming Soon)
               </span>
-
-              {/* Dropdown Menu */}
-              <div
-                className={`absolute top-6 -left-1 mt-2 w-48 bg-gray-200 text-black rounded-md shadow-lg transition-all duration-800 ease-in-out ${
-                  isDropdownOpen1
-                    ? "opacity-100 visible translate-y-0"
-                    : "opacity-0 invisible -translate-y-2 pointer-events-none"
-                }`}
-              >
-                <Link href="/schedule/offline">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-t-md">TS-Offline</div>
-                </Link>
-                <Link href="/schedule/online">
-                  <div className="px-4 py-2 hover:bg-gray-300">TS-Online</div>
-                </Link>
-                <Link href="/schedule/keynote">
-                  <div className="px-4 py-2 hover:bg-gray-300 rounded-b-md">Keynote</div>
-                </Link>
-              </div>
             </li>
           </ul>
         </div>
 
-        {/* Submit Button Desktop - Improved for larger screens */}
+        {/* Submit Button Desktop - Disabled */}
         <div className="hidden lg:flex">
-          <a
-            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025"
-            target="_blank"
+          <button
+            className="bg-gray-500 text-gray-300 font-normal rounded-xl px-4 py-2 xl:px-6 xl:py-3 cursor-not-allowed opacity-60 whitespace-nowrap text-base xl:text-lg"
+            disabled
           >
-            <button className="bg-gradient-to-r from-[#DE4060] via-[#A73E9C] to-[#438ACC] hover:bg-gradient-to-bl text-white font-normal rounded-xl px-4 py-2 xl:px-6 xl:py-3 transition-all duration-300 ease-in-out whitespace-nowrap text-base xl:text-lg">
-              Submit your paper
-            </button>
-          </a>
+            Submit (Coming Soon)
+          </button>
         </div>
       </div>
     </nav>
