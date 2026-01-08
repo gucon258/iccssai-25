@@ -6,10 +6,6 @@ export const data = [
     name: "poster",
     src: '/slider/POster 1.png'
   },
-  {
-    name: "group11",
-    src: '/slider/Group 11.png'
-  },
 ]
 
 export const events = [

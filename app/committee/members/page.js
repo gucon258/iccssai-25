@@ -1,8 +1,6 @@
 "use client";
 
 import { cards } from "@/utils/slideArray";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 
 // Helper function to format title - uses existing title if present, otherwise defaults to "Professor"
 const formatTitle = (position, organization, name) => {
@@ -339,54 +337,98 @@ export default function TeamPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <div className="py-10 px-4">
-        <h1 className="text-center text-gray-900 text-4xl font-bold mb-8">Our Team</h1>
-        {Object.entries(roles).map(([role, names]) => (
-          <div key={role} className="mb-8">
-            <h2 className="text-2xl text-gray-800 font-bold text-center mb-4">{role}</h2>
-            <div className="flex flex-wrap justify-center gap-6">
-              {names.map((name) => {
+    <div className="min-h-screen bg-gray-50 bg-[url('/bg-pattern.svg')]">
+      {/* Hero Section for Team Page */}
+      <div className="relative py-20 bg-gradient-to-br from-[#4E0000] to-[#BE2727] overflow-hidden">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#F96604] rounded-full blur-[150px] opacity-30 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#024CAD] rounded-full blur-[150px] opacity-30 pointer-events-none"></div>
+
+        <div className="relative container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight drop-shadow-md">
+            Our Distinguished Team
+          </h1>
+          <p className="text-lg md:text-xl text-gray-100 max-w-2xl mx-auto font-light leading-relaxed">
+            The visionary leaders and dedicated professionals driving ICCSAI 2026 forward.
+          </p>
+          <div className="w-24 h-1 bg-[#F8C907] mx-auto mt-8 rounded-full"></div>
+        </div>
+      </div>
+
+      <div className="container mx-auto py-16 px-4">
+        {Object.entries(roles).map(([role, names], roleIndex) => (
+          <div key={role} className="mb-20 last:mb-0">
+            {/* Section Header */}
+            <div className="flex flex-col items-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-2">{role}</h2>
+              <div className="flex items-center gap-2">
+                <div className="w-10 h-0.5 bg-gradient-to-r from-transparent to-[#BE2727]"></div>
+                <div className="w-2 h-2 bg-[#F8C907] rotate-45"></div>
+                <div className="w-10 h-0.5 bg-gradient-to-l from-transparent to-[#BE2727]"></div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-8">
+              {names.map((name, index) => {
                 const chair = cards.find((chair) => chair.name === name);
                 return (
                   chair && (
                     <div
                       key={name}
-                      className="bg-blue-900 border border-blue-800 shadow-xl rounded-xl p-4 w-72 text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+                      className="group relative bg-white rounded-2xl p-6 w-full max-w-[300px] shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden"
                     >
-                      {chair.imgSrc ? (
-                        <img
-                          src={chair.imgSrc}
-                          alt={name}
-                          className="w-32 h-32 mx-auto rounded-full border-4 border-white shadow-md object-cover"
-                        />
-                      ) : (
-                        <img
-                          src='/reshot-icon-user-ZXFJAEQURK.svg'
-                          alt={name}
-                          className="w-32 h-32 p-5 mx-auto rounded-full border-4 border-white shadow-md invert"
-                        />
-                      )}
-                      <h2 className="text-xl font-bold mt-4 text-white">{name}</h2>
-                      {(() => {
-                        const title = formatTitle(chair.position, chair.organization, name);
-                        const affiliation = formatAffiliation(chair.organization, chair.position, title);
-                        return (
-                          <>
-                            {title && (
-                              <p className="text-base font-extrabold text-gray-100 mt-2">
-                                {title}
-                              </p>
+                      {/* Top accent gradient */}
+                      <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#BE2727] to-[#F96604]"></div>
+
+                      {/* Hover background effect */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-[#BE2727]/5 to-[#F96604]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                      {/* Image */}
+                      <div className="relative mb-6">
+                        <div className="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-br from-[#BE2727] to-[#F96604] shadow-md group-hover:scale-105 transition-transform duration-300">
+                          <div className="w-full h-full rounded-full bg-white p-1 overflow-hidden">
+                            {chair.imgSrc ? (
+                              <img
+                                src={chair.imgSrc}
+                                alt={name}
+                                className="w-full h-full rounded-full object-cover"
+                              />
+                            ) : (
+                              <img
+                                src='/reshot-icon-user-ZXFJAEQURK.svg'
+                                alt={name}
+                                className="w-full h-full p-4 rounded-full object-contain opacity-50"
+                              />
                             )}
-                            {affiliation && (
-                              <p className="text-sm font-normal text-gray-300 mt-1">
-                                {affiliation}
-                              </p>
-                            )}
-                          </>
-                        );
-                      })()}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Content */}
+                      <div className="text-center relative z-10">
+                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#BE2727] transition-colors duration-200 mb-2">
+                          {name}
+                        </h3>
+
+                        {(() => {
+                          const title = formatTitle(chair.position, chair.organization, name);
+                          const affiliation = formatAffiliation(chair.organization, chair.position, title);
+                          return (
+                            <>
+                              {title && (
+                                <p className="text-sm font-bold text-[#024CAD] uppercase tracking-wide mb-2 line-clamp-2 min-h-[1.25rem]">
+                                  {title}
+                                </p>
+                              )}
+                              {affiliation && (
+                                <p className="text-sm text-gray-600 font-medium leading-snug line-clamp-3">
+                                  {affiliation}
+                                </p>
+                              )}
+                            </>
+                          );
+                        })()}
+                      </div>
                     </div>
                   )
                 );
@@ -395,7 +437,6 @@ export default function TeamPage() {
           </div>
         ))}
       </div>
-      <Footer />
     </div>
   );
 }
