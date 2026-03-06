@@ -149,12 +149,12 @@ export const cards = [
     "organization": "Director, ABV-IIITM, Gwalior, India",
     "imgSrc": "/ImportantPersons/snsingh.png"
   },
-  {
-    "name": "Dr. Ankush Mittal",
-    "position": "Vice Chancellor",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/Ankush.webp"
-  },
+  // {
+  //   "name": "Dr. Ankush Mittal",
+  //   "position": "Vice Chancellor",
+  //   "organization": "Galgotias University, Greater Noida, India",
+  //   "imgSrc": "/ImportantPersons/Ankush.webp"
+  // },
   {
     "name": "Prof. (Dr.) Avadhesh Kumar",
     "position": "Pro-Vice Chancellor",

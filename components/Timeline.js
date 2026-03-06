@@ -66,7 +66,7 @@ const Timeline = () => {
                         initial={{ width: 0 }}
                         animate={{
                             width: isInView
-                                ? `${(progressIndex / (events.length - 1)) * 100}%`
+                                ? `${Math.max(0, (progressIndex / (events.length - 1)) * 100)}%`
                                 : "0%",
                         }}
                         transition={{ duration: 1.2, ease: "easeOut" }}
@@ -81,7 +81,7 @@ const Timeline = () => {
                         initial={{ left: "0%" }}
                         animate={{
                             left: isInView
-                                ? `${(progressIndex / (events.length - 1)) * 100}%`
+                                ? `${Math.max(0, (progressIndex / (events.length - 1)) * 100)}%`
                                 : "0%",
                         }}
                         transition={{ duration: 1.2, ease: "easeOut" }}
@@ -116,8 +116,8 @@ const Timeline = () => {
                             {/* Timeline Node */}
                             <motion.div
                                 className={`relative z-10 w-10 h-10 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full flex items-center justify-center transition-all duration-300 ${index <= progressIndex
-                                        ? "bg-gradient-to-br from-[#BE2727] to-[#F96604] shadow-lg shadow-red-500/30"
-                                        : "bg-white border-4 border-gray-200"
+                                    ? "bg-gradient-to-br from-[#BE2727] to-[#F96604] shadow-lg shadow-red-500/30"
+                                    : "bg-white border-4 border-gray-200"
                                     }`}
                                 initial={{ scale: 0 }}
                                 animate={isInView ? { scale: 1 } : {}}
@@ -136,16 +136,16 @@ const Timeline = () => {
                             {/* Event Card */}
                             <motion.div
                                 className={`mt-4 sm:mt-6 text-center max-w-[80px] sm:max-w-[120px] lg:max-w-[150px] p-2 sm:p-3 rounded-xl transition-all duration-300 ${index <= progressIndex
-                                        ? "bg-gradient-to-br from-[#BE2727]/5 to-[#F96604]/5"
-                                        : "bg-transparent hover:bg-gray-50"
+                                    ? "bg-gradient-to-br from-[#BE2727]/5 to-[#F96604]/5"
+                                    : "bg-transparent hover:bg-gray-50"
                                     }`}
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                                 transition={{ duration: 0.5, delay: index * 0.15 + 0.2 }}
                             >
                                 <p className={`text-[9px] sm:text-xs lg:text-sm font-bold mb-1 ${index <= progressIndex
-                                        ? "bg-gradient-to-r from-[#BE2727] to-[#F96604] bg-clip-text text-transparent"
-                                        : "text-gray-700"
+                                    ? "bg-gradient-to-r from-[#BE2727] to-[#F96604] bg-clip-text text-transparent"
+                                    : "text-gray-700"
                                     }`}>
                                     {event.date}
                                 </p>

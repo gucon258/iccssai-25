@@ -153,7 +153,7 @@ export default function TeamPage() {
     "Patron": [
       "Dr. Dhruv Galgotia",
       "Ms. Aradhana Galgotia",
-      "Dr. Ankush Mittal",
+      // "Dr. Ankush Mittal",
       "Prof. (Dr.) S.N.Singh"
     ],
     "Conference General Chair": [
