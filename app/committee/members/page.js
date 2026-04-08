@@ -302,7 +302,7 @@ export default function TeamPage() {
       "Dr. Brij B. Gupta",
       "Dr. Vinay Kumar",
       "Dr. Savita Yadav",
-      "Prof. Anurag Diwedi",
+      "Prof. Anurag Dwivedi",
       "Prof. Deependra Rastogi",
       "Prof. N.Gayathri",
       "Prof. S.Rakesh Kumar",

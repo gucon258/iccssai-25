@@ -914,9 +914,9 @@ export const cards = [
     "imgSrc": "/ImportantPersons/Dr. Savita Yadav.jpg"
   },
   {
-    "name": "Prof. Anurag Diwedi",
+    "name": "Prof. Anurag Dwivedi",
     "position": "",
-    "organization": "BIET, Lucknow, India",
+    "organization": "Galgotias University",
     "imgSrc": "/ImportantPersons/Prof. Anurag Diwedi.jpg"
   },
   {
@@ -1156,7 +1156,7 @@ export const cards = [
   {
     "name": "Prof. (Dr.) Anurag Dwivedi",
     "position": "",
-    "organization": "BIET, Lucknow, India",
+    "organization": "Galgotias University",
     "imgSrc": "/ImportantPersons/Prof. Anurag Diwedi.jpg"
   },
   {
