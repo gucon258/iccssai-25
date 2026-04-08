@@ -12,6 +12,7 @@ import Footer from "@/components/footer";
 import ScrollingLogos from "@/components/ScrollingLogos";
 import TouristAttractions from "@/components/TouristAttractions";
 import PublicationOpportunity from "@/components/PublicationOpportunity";
+import CmtAcknowledgement from "@/components/CmtAcknowledgement";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
     <ScrollingLogos/>
     <PublicationOpportunity/>
     <TouristAttractions/>
+    <CmtAcknowledgement/>
     </>
   );
 }
