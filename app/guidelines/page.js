@@ -158,7 +158,7 @@ const Page = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 text-gray-300">
               <p>• Papers must necessarily be presented by at least one author.</p>
-              <p>• Registration is mandatory for final paper upload.</p>
+              <p>• Registration is mandatory for a Camera Ready Submission.</p>
               <p>• No-show papers will be excluded from proceedings (No refund).</p>
               <p>• Substitutions are allowed prior to the even date.</p>
             </div>

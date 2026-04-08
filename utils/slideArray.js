@@ -12,7 +12,7 @@ export const events = [
   { date: "14th July, 2026", description: "Abstract Submission Date" },
   { date: "15th September, 2026", description: "Full Paper Submission Date" },
   { date: "6th October, 2026", description: "Notification of Acceptance" },
-  { date: "13th October, 2026", description: "Final Paper Submission" }
+  { date: "13th October, 2026", description: "Camera Ready Submission" }
 ];
 
 export const categories = [
