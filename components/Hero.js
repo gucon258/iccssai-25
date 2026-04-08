@@ -67,7 +67,7 @@ const Hero = () => {
                   About Galgotias University
                 </h2>
                 <p className='text-white/95 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed'>
-                  Galgotias University hosts over 20,000 students across 100+ undergraduate and postgraduate programs. Renowned for excellence in teaching, research, and innovation, the university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2026 reinforces this mission by fostering knowledge exchange and innovation.
+                  Galgotias University hosts 30K+ students. Today, with 20 schools offering over 200 programs, it is renowned for excellence in teaching, research, and innovation. The university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2026 reinforces this mission by fostering knowledge exchange and innovation.
                 </p>
               </div>
             </div>
