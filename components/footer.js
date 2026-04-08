@@ -187,7 +187,7 @@ const Footer = () => {
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0 text-[#F8C907]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>May 15-16, 2026</span>
+                <span>November 28-30, 2026</span>
               </li>
             </ul>
           </motion.div>

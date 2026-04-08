@@ -66,7 +66,7 @@ const Hero = () => {
                 <h2 className='text-white font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 drop-shadow-md'>
                   About Galgotias University
                 </h2>
-                <p className='text-white/95 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed'>
+                <p className='text-white/95 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed text-justify'>
                   Galgotias University hosts 30K+ students. Today, with 20 schools offering over 200 programs, it is renowned for excellence in teaching, research, and innovation. The university is committed to nurturing leaders who make a global impact. Hosting ICCSAI-2026 reinforces this mission by fostering knowledge exchange and innovation.
                 </p>
               </div>
@@ -121,7 +121,7 @@ const Hero = () => {
                 <h2 className='text-white font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4 drop-shadow-md uppercase tracking-wide'>
                   Conference Objective
                 </h2>
-                <p className='text-white/95 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed'>
+                <p className='text-white/95 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed text-justify'>
                   ICCSAI-2026 is a non-profit international conference designed to advance knowledge in Computer & Communication Engineering. With multiple tracks covering diverse topics in computing, communication, information security, and artificial intelligence, the conference fosters global collaboration and sets new directions in research.
                 </p>
               </div>

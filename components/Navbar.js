@@ -68,7 +68,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/", active: true },
-    { name: "Registration", href: "#", comingSoon: true },
+    { name: "Registration", href: "/registration", active: true },
     { name: "Guidelines", href: "/guidelines", active: true },
     { name: "ICCSAI-2025", href: "https://ieeexplore.ieee.org/xpl/conhome/11063690/proceeding", external: true },
     { name: "Schedule", href: "#", comingSoon: true },

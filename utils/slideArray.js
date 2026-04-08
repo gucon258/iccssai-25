@@ -107,19 +107,27 @@ export const categories = [
 
 export const chairs = [
   {
-    "title": "Main Track: Communication, Security, and Artificial Intelligence",
+    "title": "Track 1: Computing",
     "chairpersons": []
   },
   {
-    "title": "Track-1: Emerging Trends and Applications in Machine Learning and Deep Learning",
+    "title": "Track 2: Security",
     "chairpersons": []
   },
   {
-    "title": "Track-2: Immersive Futures: Merging Realities with Intelligent Systems",
+    "title": "Track 3: AI and ML",
     "chairpersons": []
   },
   {
-    "title": "Track-3: Artificial Intelligence and Soft Computing in Power, Energy, Communication, and Security Systems",
+    "title": "Track 4: Communication",
+    "chairpersons": []
+  },
+  {
+    "title": "Track 5: Emerging Technologies",
+    "chairpersons": []
+  },
+  {
+    "title": "Track 6: Sustainability",
     "chairpersons": []
   }
 ];

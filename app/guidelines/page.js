@@ -12,7 +12,7 @@ const Page = () => {
           Author's Guidelines
         </h1>
         <div className="w-24 h-1.5 bg-gradient-to-r from-[#BE2727] to-[#F96604] mx-auto rounded-full mb-8"></div>
-        <p className="text-gray-600 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
+        <p className="text-gray-600 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto text-justify">
           We invite authors to submit original, high-quality research. Submissions must be unpublished and not under review elsewhere. All manuscripts should be submitted via Microsoft CMT in strict adherence to the IEEE standard template.
         </p>
       </div>
@@ -170,3 +170,5 @@ const Page = () => {
 }
 
 export default Page;
+
+

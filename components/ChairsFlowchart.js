@@ -66,12 +66,6 @@ export default function ChairsFlowchart() {
               className="bg-gray-50"
             >
               <div className="p-4 md:p-6 space-y-4">
-                {/* Main Track info */}
-                <div className="p-4 bg-red-50 border border-red-100 rounded-xl flex items-center gap-3 mb-6">
-                  <span className="w-2 h-2 rounded-full bg-[#BE2727]"></span>
-                  <h3 className="text-lg font-bold text-[#BE2727]">Main Track: ICCSAI-2026</h3>
-                </div>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {chairs.map((category, index) => (
                     <motion.div
@@ -81,41 +75,9 @@ export default function ChairsFlowchart() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.05 }}
                     >
-                      <button
-                        className={`w-full flex justify-between items-center p-4 text-left font-semibold focus:outline-none transition-colors duration-200 ${openChair === index ? 'text-[#BE2727] bg-gray-50' : 'text-gray-700 hover:bg-gray-50'}`}
-                        onClick={() => toggleChair(index)}
-                      >
+                      <div className="w-full flex p-4 text-left font-semibold text-gray-700 hover:bg-gray-50 transition-colors duration-200">
                         <span className="pr-4">{category.title}</span>
-                        <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform duration-300 ${openChair === index ? 'rotate-180 text-[#BE2727]' : 'text-gray-400'}`} />
-                      </button>
-
-                      <AnimatePresence>
-                        {openChair === index && (
-                          <motion.div
-                            initial={{ height: 0 }}
-                            animate={{ height: "auto" }}
-                            exit={{ height: 0 }}
-                            transition={{ duration: 0.3 }}
-                            className="bg-gray-50 border-t border-gray-100"
-                          >
-                            <ul className="p-4 pl-8 space-y-2 list-none relative">
-                              {/* Vertical line for list */}
-                              <div className="absolute left-4 top-4 bottom-4 w-0.5 bg-gray-200"></div>
-
-                              {Array.isArray(category.chairpersons) && category.chairpersons.length > 0 ? (
-                                category.chairpersons.map((chair, i) => (
-                                  <li key={i} className="text-sm text-gray-600 relative flex items-center">
-                                    <span className="absolute -left-[1.15rem] w-2 h-2 bg-gray-300 rounded-full border-2 border-white"></span>
-                                    {chair}
-                                  </li>
-                                ))
-                              ) : (
-                                <li className="text-sm text-gray-500 italic pl-2">Chairs not listed</li>
-                              )}
-                            </ul>
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
+                      </div>
                     </motion.div>
                   ))}
                 </div>
