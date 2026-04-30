@@ -76,7 +76,7 @@ const Navbar = () => {
 
   const committeeLinks = [
     { name: "Members", href: "/committee/members", active: true },
-    { name: "Speakers", href: "#", comingSoon: true },
+    { name: "Speakers", href: "/committee/speakers", active: true },
   ];
 
   return (
