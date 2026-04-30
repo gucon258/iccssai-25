@@ -122,7 +122,7 @@ const RegistrationPage = () => {
             </div>
             
             <div className="mt-10 flex justify-center relative z-10">
-                <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2025" target="_blank" rel="noreferrer">
+                <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noreferrer">
                     <button className="bg-gradient-to-r from-[#BE2727] to-[#F96604] hover:shadow-lg hover:shadow-red-500/30 hover:-translate-y-0.5 transform text-white font-semibold text-lg rounded-xl px-10 py-4 transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-2 group">
                         Submit your paper
                         <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>

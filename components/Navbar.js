@@ -255,15 +255,15 @@ const Navbar = () => {
 
                 {/* Submit Button in Mobile Menu */}
                 <div className="px-6 pb-8">
-                  <button
-                    className="w-full bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-4 py-3 shadow-lg opacity-50 cursor-not-allowed"
-                    disabled
-                  >
-                    <span className="flex items-center justify-center gap-2">
-                      Submit Paper
-                      <span className="bg-white/20 text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded-full">Soon</span>
-                    </span>
-                  </button>
+                  <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
+                    <button
+                      className="w-full bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-4 py-3 shadow-lg hover:shadow-xl transition-all duration-300"
+                    >
+                      <span className="flex items-center justify-center gap-2">
+                        Submit Paper
+                      </span>
+                    </button>
+                  </a>
                 </div>
               </motion.div>
             </>
@@ -381,15 +381,15 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="hidden lg:flex"
         >
-          <button
-            className="relative group bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 opacity-60 cursor-not-allowed hover:opacity-60 transition-all duration-300 overflow-hidden"
-            disabled
-          >
-            <span className="relative z-10 flex items-center gap-2">
-              Submit Paper
-              <span className="bg-white/20 text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded-full">Soon</span>
-            </span>
-          </button>
+          <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer">
+            <button
+              className="relative group bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 overflow-hidden"
+            >
+              <span className="relative z-10 flex items-center gap-2">
+                Submit Paper
+              </span>
+            </button>
+          </a>
         </motion.div>
       </div>
     </nav>
