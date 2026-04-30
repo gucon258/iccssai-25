@@ -6,7 +6,7 @@ const speakers = [
     name: "Dr. Sudeendra Koushik",
     position: "President TEMS",
     organization: "",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/sudeendra.jpeg"
   },
   {
     name: "Prof. (Dr.) S.N. Singh",
@@ -18,7 +18,7 @@ const speakers = [
     name: "Dr. Mrutyunjay Mohapatra",
     position: "Director General of Meteorology",
     organization: "",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/mrutyunjay mohapatra.jpeg"
   },
   {
     name: "Prof. (Dr.) Yogesh S. Chauhan",
@@ -30,37 +30,37 @@ const speakers = [
     name: "Dr. Mohammad Rihan",
     position: "Chair Elect",
     organization: "IEEE UP Section",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/mohammadrihan.jpg"
   },
   {
     name: "Prof. Asheesh K. Singh",
     position: "Professor",
     organization: "MNNIT Allahabad",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/asheeshsingh.jpg"
   },
   {
     name: "Dr. Rajeev Kr. Singh",
     position: "Professor, IIT BHU",
     organization: "Secretary, IEEE UP Section",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/rajeev singh.jpeg"
   },
   {
     name: "Dr. Varun Kakkar",
     position: "Jt. Secretary",
     organization: "IEEE UP Section",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/varunkakar.jpg"
   },
   {
     name: "Dr. Dac Nhuong Le",
     position: "Associate Professor",
     organization: "Haiphong University, Vietnam",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/dac nhuong le.jpeg"
   },
   {
     name: "Fred Schindler",
     position: "Member",
     organization: "IEEE Board of Directors",
-    imgSrc: null
+    imgSrc: "/ImportantPersons/fred.jpeg"
   },
   {
     name: "Prof. (Dr.) Harivardhagini Subhadra",
