@@ -1163,7 +1163,7 @@ export const cards = [
     "name": "Prof. (Dr.) K.M. Babu",
     "position": "Vice-Chancellor",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": ""
+    "imgSrc": "/ImportantPersons/mkbabu.png"
   },
   {
     "name": "Prof. (Dr.) Manish Kumar",
@@ -1175,7 +1175,7 @@ export const cards = [
     "name": "Prof. Sachin Saurabh",
     "position": "Assistant Professor",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": ""
+    "imgSrc": "/ImportantPersons/prof sachin saurabh.png"
   },
   {
     "name": "Prof. Anurag Diwedi",
@@ -1187,13 +1187,13 @@ export const cards = [
     "name": "Dr. Sonia Kukreja",
     "position": "Associate Professor",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": ""
+    "imgSrc": "/ImportantPersons/dr sonia kukreja.jpeg"
   },
   {
     "name": "Prof. Aishwarya",
     "position": "Assistant Professor",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": ""
+    "imgSrc": "/ImportantPersons/dr aishwarya.jpeg"
   },
   {
     "name": "Mr. Shishant Chauhan",
@@ -1205,7 +1205,7 @@ export const cards = [
     "name": "Prof. (Dr.) T. Ganesh",
     "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/Prof. (Dr.) T. Ganesh.jpeg"
+    "imgSrc": "/ImportantPersons/T ganesh.png"
   },
   {
     "name": "Mr. Durgesh",
