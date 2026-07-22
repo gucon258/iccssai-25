@@ -157,12 +157,6 @@ export const cards = [
     "organization": "Director, ABV-IIITM, Gwalior, India",
     "imgSrc": "/ImportantPersons/snsingh.png"
   },
-  // {
-  //   "name": "Dr. Ankush Mittal",
-  //   "position": "Vice Chancellor",
-  //   "organization": "Galgotias University, Greater Noida, India",
-  //   "imgSrc": "/ImportantPersons/Ankush.webp"
-  // },
   {
     "name": "Prof. (Dr.) Avadhesh Kumar",
     "position": "Pro-Vice Chancellor",
@@ -237,14 +231,14 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Sudhir Kr. Singh",
-    "position": "",
-    "organization": "HoD, DOME, Galgotias University, Greater Noida, India",
+    "position": "HoD",
+    "organization": "DOME, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/sudhirkrsingh.webp"
   },
   {
     "name": "Prof. (Dr.) Deepak Soni",
-    "position": "",
-    "organization": "HoD, DOCE, Galgotias University, Greater Noida, India",
+    "position": "HoD",
+    "organization": "DOCE, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/deepaksoni.png"
   },
   {
@@ -255,14 +249,14 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Shrddha Sagar",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/shraddha.jpg"
   },
   {
     "name": "Prof. (Dr.) Meenakshi Sharma",
-    "position": "",
-    "organization": "Director, IQAC, Galgotias University, Greater Noida, India",
+    "position": "Director",
+    "organization": "IQAC, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/meenakshiiqac.jpg"
   },
   {
@@ -273,31 +267,31 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Manish Raj",
-    "position": "",
-    "organization": "Associate Dean, SAI, Galgotias University, Greater Noida, India",
+    "position": "Associate Dean",
+    "organization": "SAI, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/manishraj.jpg"
   },
   {
     "name": "Prof. (Dr.) Ajeet Singh",
-    "position": "",
-    "organization": "Associate Dean, DCYS, Galgotias University, Greater Noida, India",
+    "position": "Associate Dean",
+    "organization": "DCYS, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Ajjet singh.jpeg"
   },
   {
     "name": "Prof. (Dr.) Saurabh Singh",
-    "position": "",
-    "organization": "Associate Dean, DAIDS, Galgotias University, Greater Noida, India",
+    "position": "Associate Dean",
+    "organization": "DAIDS, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/SAURABH SINGH .webp"
   },
   {
     "name": "Prof. (Dr.) K. K. Agrawal",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/K,K, AGARWAL.png"
   },
   {
     "name": "Prof. (Dr.) Shachi Mall",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Dr. SHACHI MALL.jpg"
   },
@@ -309,7 +303,7 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Pooja Singh",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Pooja singh.png"
   },
@@ -321,8 +315,8 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Anupam Baliyan",
-    "position": "",
-    "organization": "Associate Dean (APR), Galgotias University, Greater Noida, India",
+    "position": "Associate Dean (APR)",
+    "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) ANUPAM BALIYAN.jpg"
   },
   {
@@ -339,20 +333,20 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Jitendra",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/jitendra.jpg"
   },
   {
     "name": "Prof. (Dr.) Shashi Bhusan",
-    "position": "",
-    "organization": "Associate Dean (GSCALE), SCSE, Galgotias University, Greater Noida, India",
+    "position": "Associate Dean (GSCALE)",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/DR. SHASHI BHUSHAN.jpg"
   },
   {
     "name": "Prof. (Dr.) Meenakshi Awasthi",
-    "position": "",
-    "organization": "HoD, DEECE, Galgotias University, Greater Noida, India",
+    "position": "HoD",
+    "organization": "DEECE, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) Meenakshi Awasthi.webp"
   },
   {
@@ -363,7 +357,7 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Jagjit Singh Dhatterwal",
-    "position": "",
+    "position": "Professor",
     "organization": "SR University, Warangal, Telangana, India",
     "imgSrc": "/ImportantPersons/Jagjit Singh Dhatterwal.jpeg"
   },
@@ -381,8 +375,8 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Harivardhagini Subhadra",
-    "position": "",
-    "organization": "Professor, CVR College of Engineering, Hyderabad, India (IEEE WIE Committee Member)",
+    "position": "Professor",
+    "organization": "CVR College of Engineering, Hyderabad, India (IEEE WIE Committee Member)",
     "imgSrc": "/ImportantPersons/harivardhagini.jpeg"
   },
   {
@@ -423,14 +417,14 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Neha Jindal",
-    "position": "",
-    "organization": "Dean, SMCS, Galgotias University, Greater Noida, India",
+    "position": "Dean",
+    "organization": "SMCS, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Dr. Neha Jindal.webp"
   },
   {
     "name": "Prof. (Dr.) Shankar Kumar",
-    "position": "",
-    "organization": "Dean, SOHT, Galgotias University, Greater Noida, India",
+    "position": "Dean",
+    "organization": "SOHT, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Dr Shankar Kumar DEAN SOH.webp"
   },
   {
@@ -621,19 +615,19 @@ export const cards = [
   },
   {
     "name": "Dr. CHAMAN VERMA",
-    "position": "",
+    "position": "Professor",
     "organization": "Eotvos Lorand University, Budapest, Hungary",
     "imgSrc": "/ImportantPersons/Dr. CHAMAN VERMA.jpg"
   },
   {
     "name": "Dr. Manoj Kumar",
-    "position": "",
+    "position": "Professor",
     "organization": "University of Wollongong, Dubai, United Arab Emirate",
     "imgSrc": "/ImportantPersons/dr-manoj.jpg"
   },
   {
     "name": "Dr. Sachidanand Mohanty",
-    "position": "",
+    "position": "Professor",
     "organization": "Singdum University, Serbia",
     "imgSrc": "/ImportantPersons/Dr. Sachidanand Mohanty.jpg"
   },
@@ -663,7 +657,7 @@ export const cards = [
   },
   {
     "name": "Dr. Gavendra Singh",
-    "position": "",
+    "position": "Professor",
     "organization": "Haramaya University, Ethiopia",
     "imgSrc": null
   },
@@ -687,43 +681,43 @@ export const cards = [
   },
   {
     "name": "Dr. Shafiq Ul Rehman",
-    "position": "",
+    "position": "Professor",
     "organization": "Singapore University of Technology and Design (SUTD), Singapore",
     "imgSrc": "/ImportantPersons/Dr. Shafiq Ul Rehman.jpg"
   },
   {
     "name": "Prof. Mohammad Rashid Hussain",
-    "position": "",
+    "position": "Professor",
     "organization": "King Khalid University, Abha, Saudi Arabia",
     "imgSrc": "/ImportantPersons/Prof. Mohammad Rashid Hussain.jpg"
   },
   {
     "name": "Prof. Deepak L. Waikar",
-    "position": "",
+    "position": "Professor",
     "organization": "Singapore",
     "imgSrc": "/ImportantPersons/Prof. Deepak L. Waikar.jpg"
   },
   {
     "name": "Prof. Adarsh Anand",
-    "position": "",
+    "position": "Professor",
     "organization": "University Of Delhi, Delhi, India",
     "imgSrc": "/ImportantPersons/Prof. Adarsh Anand.jpg"
   },
   {
     "name": "Prof. (Dr.) Chandra Prakash",
-    "position": "",
+    "position": "Professor",
     "organization": "National Institute of Technology, Delhi, India",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) Chandra Prakash.jpg"
   },
   {
     "name": "Prof. (Dr.) Sahil",
-    "position": "",
+    "position": "Professor",
     "organization": "National Institute of Technology, Delhi, India",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) Sahil.jpg"
   },
   {
     "name": "Prof. T. Poongodi",
-    "position": "",
+    "position": "Professor",
     "organization": "Dayananda Sagar University, Bangalore, India.",
     "imgSrc": "/ImportantPersons/Prof. T. Poongodi.jpg"
   },
@@ -927,43 +921,43 @@ export const cards = [
   },
   {
     "name": "Prof. Deependra Rastogi",
-    "position": "",
+    "position": "Professor",
     "organization": "IILM University, India",
     "imgSrc": "/ImportantPersons/Prof. Deependra Rastogi.jpg"
   },
   {
     "name": "Prof. N.Gayathri",
-    "position": "",
+    "position": "Professor",
     "organization": "GITAM University, Bangalore, India",
     "imgSrc": "/ImportantPersons/Prof. N.Gayathri.jpg"
   },
   {
     "name": "Prof. S.Rakesh Kumar",
-    "position": "",
+    "position": "Professor",
     "organization": "GITAM University, Bangalore, India",
     "imgSrc": "/ImportantPersons/rakeshkumar.jpg"
   },
   {
     "name": "Prof. Anoop Kumar Patel",
-    "position": "",
+    "position": "Professor",
     "organization": "NIT Kurukshetra, India",
     "imgSrc": "/ImportantPersons/Prof. Anoop Kumar Patel.jpg"
   },
   {
     "name": "Prof. R.P. Yadav",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. R.P. Yadav.jpg"
   },
   {
     "name": "Prof. (Dr.) S Srinivasan",
-    "position": "",
+    "position": "Professor",
     "organization": "IILM University, Greater Noida",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) S Srinivasan.jpg"
   },
   {
     "name": "Dr. V.D.S. Baghela",
-    "position": "",
+    "position": "Professor",
     "organization": "Galgotias University, India",
     "imgSrc": "/ImportantPersons/Dr. V.D.S. Baghela.jpg"
   },
@@ -993,19 +987,19 @@ export const cards = [
   },
   {
     "name": "Dr. Shailesh Kumar",
-    "position": "",
+    "position": "Professor",
     "organization": "MMMUT, Gorakhpur",
     "imgSrc": "/ImportantPersons/Shailesh Kumar.jpg"
   },
   {
     "name": "Dr. Swapnita Srivastava",
-    "position": "",
+    "position": "Professor",
     "organization": "MMMUT, Gorakhpur",
     "imgSrc": "/ImportantPersons/swapnita.jpg"
   },
   {
     "name": "Dr. Vipul Narayan",
-    "position": "",
+    "position": "Professor",
     "organization": "MMMUT, Gorakhpur",
     "imgSrc": null
   },
@@ -1071,19 +1065,19 @@ export const cards = [
   },
   {
     "name": "Prof. Dilip Yadav",
-    "position": "",
+    "position": "Professor",
     "organization": "Bennett University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. Dilip Yadav.jpg"
   },
   {
     "name": "Prof. SPS Chauhan",
-    "position": "",
-    "organization": "",
+    "position": "Professor",
+    "organization": "Professor",
     "imgSrc": "/ImportantPersons/Prof. SPS Chauhan.jpg"
   },
   {
     "name": "Prof. Vandana Sharma",
-    "position": "",
+    "position": "Professor",
     "organization": "CHRIST University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. Vandana Sharma.jpg"
   },
@@ -1155,8 +1149,8 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Anurag Dwivedi",
-    "position": "",
-    "organization": "Galgotias University",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. Anurag Diwedi.jpg"
   },
   {
@@ -1164,6 +1158,78 @@ export const cards = [
     "position": "Director, Promotion Directorate (IN-SPACe)",
     "organization": "",
     "imgSrc": "/ImportantPersons/VINOD SIR INSPACE.jpeg"
+  },
+  {
+    "name": "Prof. (Dr.) K.M. Babu",
+    "position": "Vice-Chancellor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Prof. (Dr.) Manish Kumar",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
+  },
+  {
+    "name": "Prof. Sachin Saurabh",
+    "position": "Assistant Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Prof. Anurag Diwedi",
+    "position": "Professor",
+    "organization": "BIET, Lucknow, India",
+    "imgSrc": "/ImportantPersons/Prof. Anurag Diwedi.jpg"
+  },
+  {
+    "name": "Dr. Sonia Kukreja",
+    "position": "Associate Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Prof. Aishwarya",
+    "position": "Assistant Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Mr. Shishant Chauhan",
+    "position": "Galgotias University",
+    "organization": "Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Mr. Shishant Chauhan.jpeg"
+  },
+  {
+    "name": "Prof. (Dr.) T. Ganesh",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) T. Ganesh.jpeg"
+  },
+  {
+    "name": "Mr. Durgesh",
+    "position": "Galgotias University",
+    "organization": "Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Mr. M.D. Ansari",
+    "position": "Galgotias University",
+    "organization": "Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Mr. Vikash Jha",
+    "position": "Galgotias University",
+    "organization": "Greater Noida, India",
+    "imgSrc": ""
+  },
+  {
+    "name": "Mr. Nitin Varshney",
+    "position": "Galgotias University",
+    "organization": "Greater Noida, India",
+    "imgSrc": ""
   }
 ];
 
