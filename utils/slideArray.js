@@ -1196,6 +1196,12 @@ export const cards = [
     "imgSrc": "/ImportantPersons/prof meenakshi srivastava.jpeg"
   },
   {
+    "name": "Mr. Om Prakash",
+    "position": "",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Mr. Om Prakash.jpeg"
+  },
+  {
     "name": "Prof. Anurag Diwedi",
     "position": "Professor",
     "organization": "BIET, Lucknow, India",

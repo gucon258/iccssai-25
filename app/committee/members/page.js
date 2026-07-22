@@ -319,7 +319,11 @@ export default function TeamPage() {
     "Sponsorship & Industry Chair": [
         "Dr. Sonia Kukreja",
         "Prof. Aishwarya",
-        "Mr. Shishant Chauhan"
+        "Mr. Shishant Chauhan",
+        "Mr. Om Prakash"
+    ],
+    "Finance Chair": [
+        "Prof. (Dr.) Ashok K. Yadav"
     ],
     "Transport Chair": [
         "Prof. (Dr.) T. Ganesh"
