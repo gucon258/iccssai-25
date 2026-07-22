@@ -169,7 +169,8 @@ export default function TeamPage() {
     "Conference Organizing Chair": [
         "Prof. (Dr.) Harish Kumar GR",
         "Prof. (Dr.) Abdul Aleem",
-        "Prof. (Dr.) Gaurav Agarwal"
+        "Prof. (Dr.) Gaurav Agarwal",
+        "Prof. Arpesh Singh"
     ],
     "Technical Program Committee Chair": [
         "Prof. (Dr.) Vineeta Khemchandani",

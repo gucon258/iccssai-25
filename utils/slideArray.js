@@ -212,6 +212,12 @@ export const cards = [
     "imgSrc": "/ImportantPersons/gauravagarwal.jpeg"
   },
   {
+    "name": "Prof. Arpesh Singh",
+    "position": "Professor",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/arpesh.jpg"
+  },
+  {
     "name": "Prof. Manish Kumar",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
