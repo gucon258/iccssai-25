@@ -170,6 +170,12 @@ export const cards = [
     "imgSrc": "/ImportantPersons/yogesh.png"
   },
   {
+    "name": "Dr. Arnold Pears",
+    "position": "IEEE Education Society President",
+    "organization": "KTH Royal Institute of Technology, Sweden",
+    "imgSrc": "/ImportantPersons/ap.jpg"
+  },
+  {
     "name": "Prof. (Dr.) Akshay Rathore",
     "position": "Professor- SIT, Singapore/ IEEE Fellow",
     "organization": "Singapore Institute of Technology, Singapore",

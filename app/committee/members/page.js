@@ -158,7 +158,8 @@ export default function TeamPage() {
     ],
     "Conference General Chair": [
         "Prof. (Dr.) Avadhesh Kumar",
-        "Prof. (Dr.) Yogesh S. Chauhan"
+        "Prof. (Dr.) Yogesh S. Chauhan",
+        "Dr. Arnold Pears"
     ],
     "Conference Chair": [
         "Prof. (Dr.) Aanjey M. Tripathi",
