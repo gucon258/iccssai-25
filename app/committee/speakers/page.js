@@ -73,7 +73,7 @@ const speakers = [
 export default function KeynoteSpeakers() {
   return (
     <div className="py-6">
-      <h2 className="text-center text-3xl font-bold">Keynote Speakers</h2>
+      <h2 className="text-center text-3xl font-bold">Speakers</h2>
       <p className="text-center text-gray-600 mb-6">
         International Conference on Communication, Security, and Artificial Intelligence
       </p>
