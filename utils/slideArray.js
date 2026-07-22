@@ -231,8 +231,8 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Sunil Bharti",
-    "position": "",
-    "organization": "Galgotias College of Engineering & Technology,  Greater Noida, India",
+    "position": "Professor",
+    "organization": "Galgotias College of Engineering & Technology, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Dr Sunil Bharti.jpeg"
   },
   {
@@ -333,7 +333,7 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Trapti Shrivastava",
-    "position": "",
+    "position": "Assistant Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/trapti.jpg"
   },

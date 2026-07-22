@@ -172,11 +172,15 @@ export default function TeamPage() {
         "Prof. (Dr.) Gaurav Agarwal",
         "Prof. Arpesh Singh"
     ],
+    "Conference Co-Organizing Chair": [
+        "Prof. (Dr.) Sunil Bharti"
+    ],
     "Technical Program Committee Chair": [
         "Prof. (Dr.) Vineeta Khemchandani",
         "Prof. (Dr.) Sudhir Kr. Singh",
         "Prof. (Dr.) Deepak Soni",
-        "Prof. (Dr.) Sonia Setia"
+        "Prof. (Dr.) Sonia Setia",
+        "Prof. (Dr.) Trapti Shrivastava"
     ],
     "Publication Chair": [
         "Prof. (Dr.) Shrddha Sagar"
