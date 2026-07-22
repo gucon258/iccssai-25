@@ -215,6 +215,36 @@ export default function TeamPage() {
     "International Advisory Chair": [
         "Prof. (Dr.) Jagjit Singh Dhatterwal"
     ],
+    "National Advisory Chair": [
+        "Prof. (Dr.) Geeta Sikka",
+        "Prof. (Dr.) Abhishek Appaji",
+        "Prof. (Dr.) Harivardhagini Subhadra"
+    ],
+    "Sponsorship & Industry Chair": [
+        "Dr. Sonia Kukreja",
+        "Prof. Aishwarya",
+        "Mr. Shishant Chauhan",
+        "Mr. Om Prakash"
+    ],
+    "Finance Chair": [
+        "Prof. (Dr.) Ashok K. Yadav"
+    ],
+    "Transport Chair": [
+        "Prof. (Dr.) T. Ganesh"
+    ],
+    "Website & Graphics Chair": [
+        "Mr. Gaurang Pant"
+    ],
+    "Media Chairs": [
+        "Prof. (Dr.) Neha Jindal",
+        "Mr. Durgesh",
+        "Mr. M.D. Ansari"
+    ],
+    "Hospitality Chairs": [
+        "Prof. (Dr.) Shankar Kumar",
+        "Mr. Vikash Jha",
+        "Mr. Nitin Varshney"
+    ],
     "International Advisory Committee": [
         "Dr. Liudong Xing",
         "Dr. LING Tok Wang",
@@ -246,11 +276,6 @@ export default function TeamPage() {
         "Dr. Ahmed A. Elngar",
         "Dr. Hironori Washizaki",
         "Dr. Supavadee Aramvith"
-    ],
-    "National Advisory Chair": [
-        "Prof. (Dr.) Geeta Sikka",
-        "Prof. (Dr.) Abhishek Appaji",
-        "Prof. (Dr.) Harivardhagini Subhadra"
     ],
     "National Advisory Committee": [
         "Prof. Adarsh Anand",
@@ -315,33 +340,8 @@ export default function TeamPage() {
         "Dr. Prabhakar Tiwari",
         "Dr. Rakesh Kumar",
         "Prof. (Dr.) Meenakshi Awasthi"
-    ],
-    "Sponsorship & Industry Chair": [
-        "Dr. Sonia Kukreja",
-        "Prof. Aishwarya",
-        "Mr. Shishant Chauhan",
-        "Mr. Om Prakash"
-    ],
-    "Finance Chair": [
-        "Prof. (Dr.) Ashok K. Yadav"
-    ],
-    "Transport Chair": [
-        "Prof. (Dr.) T. Ganesh"
-    ],
-    "Website & Graphics Chair": [
-        "Mr. Gaurang Pant"
-    ],
-    "Media Chairs": [
-        "Prof. (Dr.) Neha Jindal",
-        "Mr. Durgesh",
-        "Mr. M.D. Ansari"
-    ],
-    "Hospitality Chairs": [
-        "Prof. (Dr.) Shankar Kumar",
-        "Mr. Vikash Jha",
-        "Mr. Nitin Varshney"
     ]
-};
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 bg-[url('/bg-pattern.svg')]">
