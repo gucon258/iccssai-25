@@ -360,12 +360,7 @@ export default function TeamPage() {
           <div key={role} className="mb-20 last:mb-0">
             {/* Section Header */}
             <div className="flex flex-col items-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-2">{role}</h2>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-0.5 bg-gradient-to-r from-transparent to-[#BE2727]"></div>
-                <div className="w-2 h-2 bg-[#F8C907] rotate-45"></div>
-                <div className="w-10 h-0.5 bg-gradient-to-l from-transparent to-[#BE2727]"></div>
-              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center">{role}</h2>
             </div>
 
             <div className="flex flex-wrap justify-center gap-8">
@@ -375,38 +370,30 @@ export default function TeamPage() {
                   chair && (
                     <div
                       key={name}
-                      className="group relative bg-white rounded-2xl p-6 w-full max-w-[300px] shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden"
+                      className="group relative bg-gradient-to-br from-[#4E0000] to-[#BE2727] rounded-2xl p-6 w-full max-w-[300px] shadow-xl hover:-translate-y-2 transition-transform duration-300 overflow-hidden"
                     >
-                      {/* Top accent gradient */}
-                      <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#BE2727] to-[#F96604]"></div>
-
-                      {/* Hover background effect */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-[#BE2727]/5 to-[#F96604]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
                       {/* Image */}
                       <div className="relative mb-6">
-                        <div className="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-br from-[#BE2727] to-[#F96604] shadow-md group-hover:scale-105 transition-transform duration-300">
-                          <div className="w-full h-full rounded-full bg-white p-1 overflow-hidden">
-                            {chair.imgSrc ? (
-                              <img
-                                src={chair.imgSrc}
-                                alt={name}
-                                className="w-full h-full rounded-full object-cover"
-                              />
-                            ) : (
-                              <img
-                                src='/reshot-icon-user-ZXFJAEQURK.svg'
-                                alt={name}
-                                className="w-full h-full p-4 rounded-full object-contain opacity-50"
-                              />
-                            )}
-                          </div>
+                        <div className="w-40 h-40 mx-auto rounded-full border-4 border-white shadow-lg overflow-hidden group-hover:scale-105 transition-transform duration-300 bg-white">
+                          {chair.imgSrc ? (
+                            <img
+                              src={chair.imgSrc}
+                              alt={name}
+                              className="w-full h-full object-cover"
+                            />
+                          ) : (
+                            <img
+                              src='/reshot-icon-user-ZXFJAEQURK.svg'
+                              alt={name}
+                              className="w-full h-full p-6 object-contain opacity-50"
+                            />
+                          )}
                         </div>
                       </div>
 
                       {/* Content */}
-                      <div className="text-center relative z-10">
-                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#BE2727] transition-colors duration-200 mb-2">
+                      <div className="text-center relative z-10 flex flex-col">
+                        <h3 className="text-xl font-bold text-white mb-2">
                           {name}
                         </h3>
 
@@ -416,12 +403,12 @@ export default function TeamPage() {
                           return (
                             <>
                               {title && (
-                                <p className="text-sm font-bold text-[#024CAD] uppercase tracking-wide mb-2 line-clamp-2 min-h-[1.25rem]">
+                                <p className="text-base font-bold text-[#F8C907] mb-2 line-clamp-2 min-h-[1.5rem]">
                                   {title}
                                 </p>
                               )}
                               {affiliation && (
-                                <p className="text-sm text-gray-600 font-medium leading-snug line-clamp-3">
+                                <p className="text-sm text-gray-200 font-medium leading-snug line-clamp-3">
                                   {affiliation}
                                 </p>
                               )}
