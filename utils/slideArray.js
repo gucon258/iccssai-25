@@ -4,7 +4,7 @@ import { Oranienbaum } from "next/font/google";
 export const data = [
   {
     name: "poster",
-    src: '/slider/Poster 1.png'
+    src: '/slider/poster-2026.png'
   },
 ]
 
