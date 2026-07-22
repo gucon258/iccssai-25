@@ -186,23 +186,27 @@ export default function TeamPage() {
         "Prof. (Dr.) Shrddha Sagar"
     ],
     "Publicity Chair": [
-        "Prof. (Dr.) Meenakshi Sharma"
+        "Prof. (Dr.) Meenakshi Sharma",
+        "Prof. (Dr.) Ravi Sharma"
     ],
     "Conference Secretary": [
         "Prof. (Dr.) Manish Raj",
         "Prof. (Dr.) Ajeet Singh",
         "Prof. (Dr.) Saurabh Singh",
         "Prof. (Dr.) K. K. Agrawal",
-        "Prof. (Dr.) Shachi Mall"
+        "Prof. (Dr.) Shachi Mall",
+        "Prof. Arunendra Mani Tripathi"
     ],
     "Event Organising Chair": [
-        "Prof. (Dr.) Pooja Singh"
+        "Prof. (Dr.) Pooja Singh",
+        "Prof. Pragya Tewari"
     ],
     "Conference Technical Co-Chairs": [
         "Prof. (Dr.) Anupam Baliyan",
         "Prof. (Dr.) Shipra Shukla",
         "Prof. (Dr.) Jitendra",
-        "Prof. Sachin Saurabh"
+        "Prof. Sachin Saurabh",
+        "Prof. Meenakshi Srivastava"
     ],
     "Publication Co-Chairs": [
         "Prof. (Dr.) Shashi Bhusan",
