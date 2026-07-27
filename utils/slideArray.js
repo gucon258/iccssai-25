@@ -6,6 +6,23 @@ export const data = [
     name: "poster",
     src: '/slider/poster-2026.png'
   },
+  {
+    name: "slide1",
+    src: '/slider/Slide 1.png'
+  },
+  {
+    name: "slide2",
+    src: '/slider/Slide 2.png'
+  },
+  {
+    name: "slide3",
+    src: '/slider/Slide 3.png'
+  },
+
+  {
+    name: "slide6",
+    src: '/slider/Slide 6.png'
+  },
 ]
 
 export const events = [
