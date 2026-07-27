@@ -204,7 +204,6 @@ export default function TeamPage() {
     "Conference Technical Co-Chairs": [
         "Prof. (Dr.) Anupam Baliyan",
         "Prof. (Dr.) Shipra Shukla",
-        "Prof. (Dr.) Jitendra",
         "Prof. Sachin Saurabh",
         "Prof. Meenakshi Srivastava"
     ],
@@ -233,7 +232,9 @@ export default function TeamPage() {
         "Prof. (Dr.) T. Ganesh"
     ],
     "Website & Graphics Chair": [
-        "Mr. Gaurang Pant"
+        "Mr. Gaurang Pant",
+        "Mr. Manas Saxena",
+        "Mr. Tarun Kushwaha"
     ],
     "Media Chairs": [
         "Prof. (Dr.) Neha Jindal",

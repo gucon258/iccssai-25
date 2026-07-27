@@ -279,7 +279,7 @@ export const cards = [
   },
   {
     "name": "Prof. (Dr.) Manish Raj",
-    "position": "Associate Dean",
+    "position": "Dean",
     "organization": "SAI, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/manishraj.jpg"
   },
@@ -343,12 +343,7 @@ export const cards = [
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/shipra.jpg"
   },
-  {
-    "name": "Prof. (Dr.) Jitendra",
-    "position": "Professor",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/jitendra.jpg"
-  },
+
   {
     "name": "Prof. (Dr.) Shashi Bhusan",
     "position": "Associate Dean (GSCALE)",
@@ -426,6 +421,18 @@ export const cards = [
     "position": "Chair IEEE CS GU",
     "organization": "Chair IEEE CS GU, Galgotias University, India",
     "imgSrc": "/ImportantPersons/gaurang.jpg"
+  },
+  {
+    "name": "Mr. Manas Saxena",
+    "position": "Tech Lead IEEE GU",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/manas.jpg"
+  },
+  {
+    "name": "Mr. Tarun Kushwaha",
+    "position": "",
+    "organization": "Galgotias University, India",
+    "imgSrc": "/ImportantPersons/tarun.jpg"
   },
   {
     "name": "Prof. (Dr.) Neha Jindal",
