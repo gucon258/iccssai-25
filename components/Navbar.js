@@ -10,8 +10,10 @@ import iccsailogo from "@/assets/logo/iccsailogo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isScheduleDropdownOpen, setIsScheduleDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef(null);
+  const scheduleDropdownRef = useRef(null);
   const mobileNavRef = useRef(null);
 
   // Handle scroll for navbar background
@@ -28,6 +30,9 @@ const Navbar = () => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsDropdownOpen(false);
+      }
+      if (scheduleDropdownRef.current && !scheduleDropdownRef.current.contains(event.target)) {
+        setIsScheduleDropdownOpen(false);
       }
       if (isOpen && mobileNavRef.current && !mobileNavRef.current.contains(event.target) && !event.target.closest('button[aria-label="Toggle menu"]')) {
         setIsOpen(false);
@@ -71,12 +76,21 @@ const Navbar = () => {
     { name: "Registration", href: "/registration", active: true },
     { name: "Guidelines", href: "/guidelines", active: true },
     { name: "ICCSAI-2025", href: "https://ieeexplore.ieee.org/xpl/conhome/11063690/proceeding", external: true },
-    { name: "Schedule", href: "#", comingSoon: true },
+    { name: "Events", href: "/events", active: true },
+    { name: "Awards", href: "/awards", active: true },
   ];
 
   const committeeLinks = [
     { name: "Members", href: "/committee/members", active: true },
     { name: "Speakers", href: "/committee/speakers", active: true },
+  ];
+
+  const scheduleLinks = [
+    { name: "Technical Session", href: "/schedule/technical-session", active: true },
+    { name: "Event Schedule", href: "/schedule/event-schedule", active: true },
+    { name: "Keynote Schedule", href: "/schedule/keynote-schedule", active: true },
+    { name: "Inauguration Ceremony", href: "/schedule/inauguration-ceremony", active: true },
+    { name: "Valedictory Ceremony", href: "/schedule/valedictory-ceremony", active: true },
   ];
 
   return (
@@ -251,6 +265,52 @@ const Navbar = () => {
                       )}
                     </AnimatePresence>
                   </motion.li>
+
+                  {/* Schedule Dropdown Mobile */}
+                  <motion.li
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.3 }}
+                  >
+                    <button
+                      onClick={() => setIsScheduleDropdownOpen(!isScheduleDropdownOpen)}
+                      className="w-full flex items-center justify-between py-3 px-4 text-gray-800 text-lg font-medium hover:bg-gray-50 rounded-lg transition-colors duration-200"
+                    >
+                      Schedule
+                      <ChevronDown
+                        size={20}
+                        className={`transition-transform duration-300 text-gray-400 ${isScheduleDropdownOpen ? 'rotate-180' : ''}`}
+                      />
+                    </button>
+                    <AnimatePresence>
+                      {isScheduleDropdownOpen && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.3 }}
+                          className="ml-4 overflow-hidden border-l-2 border-gray-100 pl-2"
+                        >
+                          {scheduleLinks.map((subLink) => (
+                            <div key={subLink.name}>
+                              {subLink.comingSoon ? (
+                                <div className="flex items-center gap-2 py-2 px-4 text-gray-400 rounded-lg">
+                                  <span className="font-medium">{subLink.name}</span>
+                                  <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-100 text-gray-500 px-2 py-1 rounded-full">Soon</span>
+                                </div>
+                              ) : (
+                                <Link href={subLink.href} onClick={closeMenu}>
+                                  <div className="py-2 px-4 text-gray-700 font-medium hover:text-[#BE2727] transition-colors duration-200">
+                                    {subLink.name}
+                                  </div>
+                                </Link>
+                              )}
+                            </div>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </motion.li>
                 </ul>
 
                 {/* Submit Button in Mobile Menu */}
@@ -323,6 +383,53 @@ const Navbar = () => {
                     className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
                   >
                     {committeeLinks.map((subLink) => (
+                      <div key={subLink.name}>
+                        {subLink.comingSoon ? (
+                          <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
+                            <span className="text-sm font-medium">{subLink.name}</span>
+                            <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-500 px-2 py-0.5 rounded-full">Soon</span>
+                          </div>
+                        ) : (
+                          <Link href={subLink.href}>
+                            <div className="px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-[#BE2727] transition-all duration-200 flex items-center justify-between group">
+                              <span className="text-sm font-medium group-hover:translate-x-1 transition-transform">{subLink.name}</span>
+                            </div>
+                          </Link>
+                        )}
+                      </div>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </li>
+
+            {/* Schedule Dropdown */}
+            <li
+              className="relative flex items-center h-full"
+              onMouseEnter={() => setIsScheduleDropdownOpen(true)}
+              onMouseLeave={() => setIsScheduleDropdownOpen(false)}
+              ref={scheduleDropdownRef}
+            >
+              <span className="flex items-center gap-1 px-3 py-2 text-gray-700 hover:text-[#BE2727] cursor-pointer transition-colors duration-200 text-sm xl:text-base font-semibold group h-full">
+                Schedule
+                <ChevronDown
+                  size={16}
+                  className={`transition-transform duration-300 text-gray-400 group-hover:text-[#BE2727] ${isScheduleDropdownOpen ? 'rotate-180' : ''}`}
+                />
+                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+              </span>
+
+              {/* Dropdown Menu */}
+              <AnimatePresence>
+                {isScheduleDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
+                  >
+                    {scheduleLinks.map((subLink) => (
                       <div key={subLink.name}>
                         {subLink.comingSoon ? (
                           <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
