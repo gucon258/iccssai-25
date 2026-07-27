@@ -235,7 +235,7 @@ export const cards = [
     "imgSrc": "/ImportantPersons/arpesh.jpg"
   },
   {
-    "name": "Prof. Manish Kumar",
+    "name": "Prof. (Dr.) Manish Kumar",
     "position": "",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/manish kumar.jpeg"
