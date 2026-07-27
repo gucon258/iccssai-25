@@ -75,6 +75,7 @@ const Navbar = () => {
     { name: "Home", href: "/", active: true },
     { name: "Registration", href: "/registration", active: true },
     { name: "Guidelines", href: "/guidelines", active: true },
+    { name: "ICCSAI-2023", href: "https://ieeexplore.ieee.org/xpl/conhome/10420826/proceeding", external: true },
     { name: "ICCSAI-2025", href: "https://ieeexplore.ieee.org/xpl/conhome/11063690/proceeding", external: true },
     { name: "Events", href: "/events", active: true },
     { name: "Awards", href: "/awards", active: true },
@@ -94,6 +95,7 @@ const Navbar = () => {
   ];
 
   return (
+    <>
     <nav className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled
       ? "bg-white/90 backdrop-blur-md shadow-md border-b border-gray-100"
       : "bg-white/80 backdrop-blur-sm"
@@ -154,6 +156,176 @@ const Navbar = () => {
           </AnimatePresence>
         </motion.button>
 
+        {/* Desktop Navigation */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="hidden lg:flex lg:items-center lg:gap-8 2xl:justify-center 2xl:flex-1" // Increased gap
+        >
+          <ul className="flex flex-row items-center gap-1 xl:gap-2 font-medium"> {/* Ensure items-center */}
+            {navLinks.slice(0, 2).map((link) => (
+              <li key={link.name} className="flex items-center h-full"> {/* Ensure h-full and flex */}
+                {link.comingSoon ? (
+                  <span className="flex items-center gap-2 px-3 py-2 text-gray-400 cursor-not-allowed text-sm font-semibold select-none">
+                    {link.name}
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">Soon</span>
+                  </span>
+                ) : (
+                  <Link href={link.href} className="flex items-center">
+                    <span className="px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group flex items-center">
+                      {link.name}
+                      <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+                    </span>
+                  </Link>
+                )}
+              </li>
+            ))}
+
+            {/* Committee Dropdown */}
+            <li
+              className="relative flex items-center h-full"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+              ref={dropdownRef}
+            >
+              <span className="flex items-center gap-1 px-3 py-2 text-gray-700 hover:text-[#BE2727] cursor-pointer transition-colors duration-200 text-sm xl:text-base font-semibold group h-full">
+                Committee
+                <ChevronDown
+                  size={16}
+                  className={`transition-transform duration-300 text-gray-400 group-hover:text-[#BE2727] ${isDropdownOpen ? 'rotate-180' : ''}`}
+                />
+                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+              </span>
+
+              {/* Dropdown Menu */}
+              <AnimatePresence>
+                {isDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
+                  >
+                    {committeeLinks.map((subLink) => (
+                      <div key={subLink.name}>
+                        {subLink.comingSoon ? (
+                          <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
+                            <span className="text-sm font-medium">{subLink.name}</span>
+                            <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-500 px-2 py-0.5 rounded-full">Soon</span>
+                          </div>
+                        ) : (
+                          <Link href={subLink.href}>
+                            <div className="px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-[#BE2727] transition-all duration-200 flex items-center justify-between group">
+                              <span className="text-sm font-medium group-hover:translate-x-1 transition-transform">{subLink.name}</span>
+                            </div>
+                          </Link>
+                        )}
+                      </div>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </li>
+
+            {/* Schedule Dropdown */}
+            <li
+              className="relative flex items-center h-full"
+              onMouseEnter={() => setIsScheduleDropdownOpen(true)}
+              onMouseLeave={() => setIsScheduleDropdownOpen(false)}
+              ref={scheduleDropdownRef}
+            >
+              <span className="flex items-center gap-1 px-3 py-2 text-gray-700 hover:text-[#BE2727] cursor-pointer transition-colors duration-200 text-sm xl:text-base font-semibold group h-full">
+                Schedule
+                <ChevronDown
+                  size={16}
+                  className={`transition-transform duration-300 text-gray-400 group-hover:text-[#BE2727] ${isScheduleDropdownOpen ? 'rotate-180' : ''}`}
+                />
+                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+              </span>
+
+              {/* Dropdown Menu */}
+              <AnimatePresence>
+                {isScheduleDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
+                  >
+                    {scheduleLinks.map((subLink) => (
+                      <div key={subLink.name}>
+                        {subLink.comingSoon ? (
+                          <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
+                            <span className="text-sm font-medium">{subLink.name}</span>
+                            <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-500 px-2 py-0.5 rounded-full">Soon</span>
+                          </div>
+                        ) : (
+                          <Link href={subLink.href}>
+                            <div className="px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-[#BE2727] transition-all duration-200 flex items-center justify-between group">
+                              <span className="text-sm font-medium group-hover:translate-x-1 transition-transform">{subLink.name}</span>
+                            </div>
+                          </Link>
+                        )}
+                      </div>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </li>
+
+            {navLinks.slice(2).map((link) => (
+              <li key={link.name} className="flex items-center h-full">
+                {link.comingSoon ? (
+                  <span className="flex items-center gap-2 px-3 py-2 text-gray-400 cursor-not-allowed text-sm font-semibold select-none">
+                    {link.name}
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">Soon</span>
+                  </span>
+                ) : link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group"
+                  >
+                    {link.name}
+                    <ExternalLink size={14} className="opacity-40 group-hover:opacity-100 transition-opacity" />
+                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+                  </a>
+                ) : (
+                  <Link href={link.href} className="flex items-center">
+                    <span className="px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group flex items-center">
+                      {link.name}
+                      <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
+                    </span>
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </motion.div>
+
+        {/* Submit Button Desktop */}
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="hidden lg:flex"
+        >
+          <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer">
+            <button
+              className="relative group bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 overflow-hidden"
+            >
+              <span className="relative z-10 flex items-center gap-2">
+                Submit Paper
+              </span>
+            </button>
+          </a>
+        </motion.div>
+      </div>
+    </nav>
         {/* Mobile and Tablet Menu */}
         <AnimatePresence>
           {isOpen && (
@@ -330,176 +502,8 @@ const Navbar = () => {
           )}
         </AnimatePresence>
 
-        {/* Desktop Navigation */}
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="hidden lg:flex lg:items-center lg:gap-8 2xl:justify-center 2xl:flex-1" // Increased gap
-        >
-          <ul className="flex flex-row items-center gap-1 xl:gap-2 font-medium"> {/* Ensure items-center */}
-            {navLinks.slice(0, 2).map((link) => (
-              <li key={link.name} className="flex items-center h-full"> {/* Ensure h-full and flex */}
-                {link.comingSoon ? (
-                  <span className="flex items-center gap-2 px-3 py-2 text-gray-400 cursor-not-allowed text-sm font-semibold select-none">
-                    {link.name}
-                    <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">Soon</span>
-                  </span>
-                ) : (
-                  <Link href={link.href} className="flex items-center">
-                    <span className="px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group flex items-center">
-                      {link.name}
-                      <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
-                    </span>
-                  </Link>
-                )}
-              </li>
-            ))}
+    </>
 
-            {/* Committee Dropdown */}
-            <li
-              className="relative flex items-center h-full"
-              onMouseEnter={() => setIsDropdownOpen(true)}
-              onMouseLeave={() => setIsDropdownOpen(false)}
-              ref={dropdownRef}
-            >
-              <span className="flex items-center gap-1 px-3 py-2 text-gray-700 hover:text-[#BE2727] cursor-pointer transition-colors duration-200 text-sm xl:text-base font-semibold group h-full">
-                Committee
-                <ChevronDown
-                  size={16}
-                  className={`transition-transform duration-300 text-gray-400 group-hover:text-[#BE2727] ${isDropdownOpen ? 'rotate-180' : ''}`}
-                />
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
-              </span>
-
-              {/* Dropdown Menu */}
-              <AnimatePresence>
-                {isDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
-                  >
-                    {committeeLinks.map((subLink) => (
-                      <div key={subLink.name}>
-                        {subLink.comingSoon ? (
-                          <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
-                            <span className="text-sm font-medium">{subLink.name}</span>
-                            <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-500 px-2 py-0.5 rounded-full">Soon</span>
-                          </div>
-                        ) : (
-                          <Link href={subLink.href}>
-                            <div className="px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-[#BE2727] transition-all duration-200 flex items-center justify-between group">
-                              <span className="text-sm font-medium group-hover:translate-x-1 transition-transform">{subLink.name}</span>
-                            </div>
-                          </Link>
-                        )}
-                      </div>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-
-            {/* Schedule Dropdown */}
-            <li
-              className="relative flex items-center h-full"
-              onMouseEnter={() => setIsScheduleDropdownOpen(true)}
-              onMouseLeave={() => setIsScheduleDropdownOpen(false)}
-              ref={scheduleDropdownRef}
-            >
-              <span className="flex items-center gap-1 px-3 py-2 text-gray-700 hover:text-[#BE2727] cursor-pointer transition-colors duration-200 text-sm xl:text-base font-semibold group h-full">
-                Schedule
-                <ChevronDown
-                  size={16}
-                  className={`transition-transform duration-300 text-gray-400 group-hover:text-[#BE2727] ${isScheduleDropdownOpen ? 'rotate-180' : ''}`}
-                />
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
-              </span>
-
-              {/* Dropdown Menu */}
-              <AnimatePresence>
-                {isScheduleDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 z-50 ring-1 ring-black/5"
-                  >
-                    {scheduleLinks.map((subLink) => (
-                      <div key={subLink.name}>
-                        {subLink.comingSoon ? (
-                          <div className="flex items-center justify-between px-4 py-3 text-gray-400 cursor-not-allowed bg-gray-50/50">
-                            <span className="text-sm font-medium">{subLink.name}</span>
-                            <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-500 px-2 py-0.5 rounded-full">Soon</span>
-                          </div>
-                        ) : (
-                          <Link href={subLink.href}>
-                            <div className="px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-[#BE2727] transition-all duration-200 flex items-center justify-between group">
-                              <span className="text-sm font-medium group-hover:translate-x-1 transition-transform">{subLink.name}</span>
-                            </div>
-                          </Link>
-                        )}
-                      </div>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </li>
-
-            {navLinks.slice(2).map((link) => (
-              <li key={link.name} className="flex items-center h-full">
-                {link.comingSoon ? (
-                  <span className="flex items-center gap-2 px-3 py-2 text-gray-400 cursor-not-allowed text-sm font-semibold select-none">
-                    {link.name}
-                    <span className="text-[10px] font-bold uppercase tracking-wider bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">Soon</span>
-                  </span>
-                ) : link.external ? (
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group"
-                  >
-                    {link.name}
-                    <ExternalLink size={14} className="opacity-40 group-hover:opacity-100 transition-opacity" />
-                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
-                  </a>
-                ) : (
-                  <Link href={link.href} className="flex items-center">
-                    <span className="px-3 py-2 text-gray-700 hover:text-[#BE2727] transition-colors duration-200 text-sm xl:text-base font-semibold relative group flex items-center">
-                      {link.name}
-                      <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#BE2727] group-hover:w-3/4 transition-all duration-300 rounded-full"></span>
-                    </span>
-                  </Link>
-                )}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-
-        {/* Submit Button Desktop */}
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="hidden lg:flex"
-        >
-          <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer">
-            <button
-              className="relative group bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 overflow-hidden"
-            >
-              <span className="relative z-10 flex items-center gap-2">
-                Submit Paper
-              </span>
-            </button>
-          </a>
-        </motion.div>
-      </div>
-    </nav>
   );
 };
 

@@ -186,12 +186,7 @@ export const cards = [
     "organization": "IIT Kanpur, India (Chair, IEEE UP Section)",
     "imgSrc": "/ImportantPersons/yogesh.png"
   },
-  {
-    "name": "Dr. Arnold Pears",
-    "position": "IEEE Education Society President",
-    "organization": "KTH Royal Institute of Technology, Sweden",
-    "imgSrc": "/ImportantPersons/ap.jpg"
-  },
+
   {
     "name": "Prof. (Dr.) Akshay Rathore",
     "position": "Professor- SIT, Singapore/ IEEE Fellow",
