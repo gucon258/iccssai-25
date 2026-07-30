@@ -6,9 +6,6 @@ const RegistrationPage = () => {
     <div className="bg-gray-50 bg-[url('/bg-pattern.svg')] min-h-screen py-16 px-4">
       <MaxWidthWrapper>
         <div className="text-center mb-12">
-          <div className="inline-block px-4 py-1.5 bg-red-100 text-[#BE2727] rounded-full text-sm font-semibold mb-4 border border-red-200">
-            Tickets & Passes
-          </div>
           <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-[#BE2727] to-[#F96604] bg-clip-text text-transparent mb-6 tracking-tight">
             Registration Rates
           </h1>
@@ -80,11 +77,11 @@ const RegistrationPage = () => {
             </p>
             <p className="font-bold text-gray-800 mb-3 text-base flex justify-center items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#F96604]"></span>
-              One full author registration can register up to 2 papers
+              One full author can register up to two papers by paying separate registration fees.
               <span className="w-1.5 h-1.5 rounded-full bg-[#F96604]"></span>
             </p>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed mt-4 bg-red-50/50 p-4 rounded-xl border border-red-100/50 text-justify">
-              <span className="font-semibold text-gray-800">Extra Page Charges:</span> Each accepted paper is allowed a maximum of 6 pages in the final manuscript. Authors may include up to 2 additional pages beyond the basic 6 pages, if required. An extra page charge will apply at the time of author registration: <span className="font-semibold text-[#BE2727]">INR 1500 per additional page for Indian authors</span> and <span className="font-semibold text-[#BE2727]">USD 20 per additional page for international authors</span>.
+              <span className="font-semibold text-gray-800">Extra Page Charges:</span> Each accepted paper is allowed a maximum of 6 pages in the final manuscript. Authors may include up to 2 additional pages beyond the basic 6 pages, if required. An extra page charge will apply at the time of author registration: <span className="font-semibold text-[#BE2727]">INR 1500 per additional page for Indian authors</span> and <span className="font-semibold text-[#BE2727]">USD 25 per additional page for international authors</span>.
             </p>
           </div>
         </div>
