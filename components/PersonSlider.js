@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react";
-import { cards } from "@/utils/slideArray";
+import { homePageCards as cards } from "@/utils/slideArray";
 
 const PersonSlider = () => {
   // const cards = Array(10).fill({
