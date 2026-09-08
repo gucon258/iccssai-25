@@ -129,6 +129,20 @@ export const chairs = [
   {
     "title": "Track 6: Sustainability",
     "chairpersons": []
+  },
+  {
+    "title": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+    "chairpersons": [
+      "Dr. Varun Malik, Chitkara University, India",
+      "Dr. Kiran Malik, GL Bajaj College of Engineering, Greater Noida, India"
+    ]
+  },
+  {
+    "title": "Track 8: Green AI, Edge Intelligence, and Data Analytics for Sustainable Smart Systems",
+    "chairpersons": [
+      "Dr. Jagjit Singh Dhatterwal, SR University, Warangal, Telangana, India",
+      "Dr. Nikhat Raza Khan, Oriental College of Technology, Bhopal, India"
+    ]
   }
 ];
 
@@ -1328,12 +1342,6 @@ export const homePageCards = [
     "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/shraddha.jpg"
-  },
-  {
-    "name": "Prof. (Dr.) Manish Kumar",
-    "position": "Professor",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
   },
   {
     "name": "Prof. (Dr.) Sonia Setia",

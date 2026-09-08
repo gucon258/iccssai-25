@@ -75,8 +75,23 @@ export default function ChairsFlowchart() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.05 }}
                     >
-                      <div className="w-full flex p-4 text-left font-semibold text-gray-700 hover:bg-gray-50 transition-colors duration-200">
-                        <span className="pr-4">{category.title}</span>
+                      <div className="w-full p-4 text-left font-semibold text-gray-700 hover:bg-gray-50 transition-colors duration-200">
+                        <span className="block pr-4">{category.title}</span>
+                        {category.chairpersons && category.chairpersons.length > 0 && (
+                          <div className="mt-3 pt-3 border-t border-gray-100 font-normal">
+                            <p className="text-xs font-bold text-[#BE2727] uppercase tracking-wider mb-2">
+                              Track Chairs:
+                            </p>
+                            <ul className="space-y-1.5 text-sm text-gray-600">
+                              {category.chairpersons.map((chair, idx) => (
+                                <li key={idx} className="flex items-start gap-2">
+                                  <span className="text-[#F96604] font-bold">•</span>
+                                  <span>{chair}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                       </div>
                     </motion.div>
                   ))}
