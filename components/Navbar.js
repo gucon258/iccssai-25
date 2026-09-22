@@ -316,10 +316,13 @@ const Navbar = () => {
         >
           <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer">
             <button
-              className="relative group bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 overflow-hidden"
+              className="relative group animate-shimmer-sweep bg-gradient-to-r from-[#BE2727] via-[#d73434] to-[#F96604] hover:from-[#a51f1f] hover:to-[#e05600] text-white font-bold rounded-xl px-6 py-2.5 shadow-lg shadow-red-500/25 hover:shadow-red-500/40 hover:-translate-y-0.5 transition-all duration-300 overflow-hidden cursor-pointer"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Submit Paper
+                <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </span>
             </button>
           </a>
@@ -489,10 +492,13 @@ const Navbar = () => {
                 <div className="px-6 pb-8">
                   <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICCSAI2026%2F" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
                     <button
-                      className="w-full bg-gradient-to-r from-[#BE2727] to-[#F96604] text-white font-bold rounded-xl px-4 py-3 shadow-lg hover:shadow-xl transition-all duration-300"
+                      className="w-full animate-shimmer-sweep bg-gradient-to-r from-[#BE2727] via-[#d73434] to-[#F96604] hover:from-[#a51f1f] hover:to-[#e05600] text-white font-bold rounded-xl px-4 py-3 shadow-lg shadow-red-500/25 transition-all duration-300 overflow-hidden cursor-pointer"
                     >
                       <span className="flex items-center justify-center gap-2">
                         Submit Paper
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
                       </span>
                     </button>
                   </a>

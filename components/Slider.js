@@ -3,9 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import { data } from '@/utils/slideArray';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Slider = () => {
@@ -20,11 +19,10 @@ const Slider = () => {
     <div className="w-full px-4 py-8 mx-auto lg:px-8 max-w-[1440px]">
       {isMounted && (
         <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
           loop={true}
-          navigation={true}
           pagination={{
             clickable: true,
             dynamicBullets: true,
@@ -39,7 +37,6 @@ const Slider = () => {
             '--swiper-pagination-bullet-inactive-opacity': '0.5',
             '--swiper-pagination-bullet-size': '10px',
             '--swiper-pagination-bullet-horizontal-gap': '6px',
-            '--swiper-navigation-color': '#fff',
           }}
           breakpoints={{
             320: { height: '300px' },
