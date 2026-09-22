@@ -23,6 +23,8 @@ const Slider = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
+          loop={true}
+          navigation={true}
           pagination={{
             clickable: true,
             dynamicBullets: true,

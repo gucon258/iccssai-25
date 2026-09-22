@@ -3,10 +3,34 @@ import { Oranienbaum } from "next/font/google";
 
 export const data = [
   {
+    name: "slide1",
+    src: '/slider/Slide 1.png'
+  },
+  {
+    name: "slide2",
+    src: '/slider/Slide 2.png'
+  },
+  {
+    name: "slide3",
+    src: '/slider/Slide 3.png'
+  },
+  {
+    name: "slide4",
+    src: '/slider/Slide 4.png'
+  },
+  {
+    name: "slide5",
+    src: '/slider/Slide 5.png'
+  },
+  {
     name: "slide6",
     src: '/slider/Slide 6.png'
   },
-]
+  {
+    name: "slide7",
+    src: '/slider/Slide 7.png'
+  },
+];
 
 export const events = [
   { date: "14th July, 2026", description: "Abstract Submission Date" },
