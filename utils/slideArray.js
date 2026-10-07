@@ -35,8 +35,8 @@ export const data = [
 export const events = [
   { date: "14th July, 2026", description: "Abstract Submission Date" },
   { date: "15th September, 2026", description: "Full Paper Submission Date" },
-  { date: "6th October, 2026", description: "Notification of Acceptance" },
-  { date: "13th October, 2026", description: "Camera Ready Submission" }
+  { date: "15th October, 2026", description: "Notification of Acceptance" },
+  { date: "20th October, 2026", description: "Camera Ready Submission" }
 ];
 
 export const categories = [
