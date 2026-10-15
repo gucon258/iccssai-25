@@ -13,7 +13,7 @@ const featuredSpeaker = {
   imgSrc: "/ImportantPersons/manfred_fred_schindler.jpg"
 };
 
-const speakers = [
+export const previousSpeakers = [
   {
     name: "Manfred “Fred” J. Schindler",
     position: "2027 IEEE President-Elect",
