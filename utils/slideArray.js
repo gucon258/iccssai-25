@@ -251,12 +251,6 @@ export const cards = [
     "imgSrc": "/ImportantPersons/arpesh.jpg"
   },
   {
-    "name": "Prof. (Dr.) Manish Kumar",
-    "position": "",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
-  },
-  {
     "name": "Prof. Arpesh Singh",
     "position": "Professor",
     "organization": "Galgotias University, Greater Noida, India",
@@ -1216,18 +1210,6 @@ export const cards = [
     "position": "Vice-Chancellor",
     "organization": "Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/mkbabu.png"
-  },
-  {
-    "name": "Prof. (Dr.) Manish Kumar",
-    "position": "Professor",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/manish kumar.jpeg"
-  },
-  {
-    "name": "Prof. Sachin Saurabh",
-    "position": "Assistant Professor",
-    "organization": "Galgotias University, Greater Noida, India",
-    "imgSrc": "/ImportantPersons/prof sachin saurabh.png"
   },
   {
     "name": "Prof. Meenakshi Srivastava",

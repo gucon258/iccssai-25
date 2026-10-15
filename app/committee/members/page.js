@@ -162,8 +162,7 @@ export default function TeamPage() {
     ],
     "Conference Chair": [
         "Prof. (Dr.) Aanjey M. Tripathi",
-        "Prof. (Dr.) Kuldeep S. Kaswan",
-        "Prof. (Dr.) Manish Kumar"
+        "Prof. (Dr.) Kuldeep S. Kaswan"
     ],
     "Conference Organizing Chair": [
         "Prof. (Dr.) Harish Kumar GR",
@@ -203,7 +202,6 @@ export default function TeamPage() {
     "Conference Technical Co-Chairs": [
         "Prof. (Dr.) Anupam Baliyan",
         "Prof. (Dr.) Shipra Shukla",
-        "Prof. Sachin Saurabh",
         "Prof. Meenakshi Srivastava"
     ],
     "Publication Co-Chairs": [
