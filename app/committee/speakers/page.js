@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Award, Sparkles, Mic, Calendar, Building2, Info } from "lucide-react";
+import { Award, Sparkles, Building2, Info } from "lucide-react";
 
 const keynoteSpeakers = [
   {
@@ -451,23 +451,6 @@ export default function KeynoteSpeakers() {
                         </span>
                       </div>
                     ))}
-                  </div>
-
-                  {/* Compact Keynote Topic Bar */}
-                  <div className="rounded-xl bg-amber-50/80 border border-amber-200/80 px-3 py-2 mb-3.5 flex items-center justify-between gap-2 text-left shadow-2xs">
-                    <div className="flex items-center gap-2 min-w-0">
-                      <Mic className="w-3.5 h-3.5 text-amber-700 flex-shrink-0" />
-                      <span className="text-xs font-bold uppercase tracking-wider text-amber-900 flex-shrink-0">
-                        Topic:
-                      </span>
-                      <span className="text-xs text-gray-700 truncate font-medium">
-                        Schedule and keynote presentation to be announced upon confirmation
-                      </span>
-                    </div>
-                    <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 border border-amber-300/70 flex-shrink-0">
-                      <Calendar className="w-2.5 h-2.5 text-amber-700" />
-                      TBA
-                    </span>
                   </div>
 
                   {/* Bio Section with Conference Accent */}
