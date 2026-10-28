@@ -444,20 +444,8 @@ export const cards = [
     "imgSrc": "/ImportantPersons/Pankaj LAMBA.jpeg"
   },
   {
-    "name": "Mr. Gaurang Pant",
-    "position": "Chair IEEE CS GU",
-    "organization": "Chair IEEE CS GU, Galgotias University, India",
-    "imgSrc": "/ImportantPersons/gaurang.jpg"
-  },
-  {
-    "name": "Mr. Manas Saxena",
-    "position": "Tech Lead IEEE GU",
-    "organization": "Galgotias University, India",
-    "imgSrc": "/ImportantPersons/manas.jpg"
-  },
-  {
     "name": "Mr. Tarun Kushwaha",
-    "position": "",
+    "position": "Tech Lead IEEE GU",
     "organization": "Galgotias University, India",
     "imgSrc": "/ImportantPersons/tarun.jpg"
   },
@@ -1276,6 +1264,42 @@ export const cards = [
     "position": "Galgotias University",
     "organization": "Greater Noida, India",
     "imgSrc": ""
+  },
+  {
+    "name": "Prof. (Dr.) Prem Kumari Verma",
+    "position": "Assistant Professor",
+    "organization": "SOAI, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Prem Kumari Verma.jpg"
+  },
+  {
+    "name": "Prof. (Dr.) Mandeep Kumar",
+    "position": "Associate Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Mandeep Kumar.jpg"
+  },
+  {
+    "name": "Prof. (Dr.) Fatima Ziya",
+    "position": "Assistant Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Fatima Ziya.jpg"
+  },
+  {
+    "name": "Prof. Supriya",
+    "position": "Assistant Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. Supriya.jpg"
+  },
+  {
+    "name": "Prof. (Dr.) Anima Srivastava",
+    "position": "Assistant Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Anima Srivastava.jpg"
+  },
+  {
+    "name": "Prof. (Dr.) Manish Verma",
+    "position": "Associate Professor",
+    "organization": "SOAI, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/Prof. (Dr.) Manish Verma.jpg"
   }
 ];
 

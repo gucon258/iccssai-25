@@ -200,12 +200,19 @@ export default function TeamPage() {
         "Prof. Pragya Tewari"
     ],
     "Conference Technical Co-Chairs": [
-        "Prof. (Dr.) Anupam Baliyan",
         "Prof. (Dr.) Shipra Shukla",
-        "Prof. Meenakshi Srivastava"
+        "Prof. Meenakshi Srivastava",
+        "Dr. Sonia Kukreja",
+        "Prof. (Dr.) Prem Kumari Verma",
+        "Prof. (Dr.) Mandeep Kumar",
+        "Prof. (Dr.) Fatima Ziya",
+        "Prof. Supriya",
+        "Prof. (Dr.) Anima Srivastava",
+        "Prof. (Dr.) Manish Verma"
     ],
     "Publication Co-Chairs": [
         "Prof. (Dr.) Shashi Bhusan",
+        "Prof. (Dr.) Anupam Baliyan",
         "Prof. (Dr.) Anurag Dwivedi"
     ],
     "International Advisory Chair": [
@@ -217,7 +224,6 @@ export default function TeamPage() {
         "Prof. (Dr.) Harivardhagini Subhadra"
     ],
     "Sponsorship & Industry Chair": [
-        "Dr. Sonia Kukreja",
         "Prof. Aishwarya",
         "Mr. Shishant Chauhan",
         "Mr. Om Prakash"
@@ -229,8 +235,6 @@ export default function TeamPage() {
         "Prof. (Dr.) T. Ganesh"
     ],
     "Website & Graphics Chair": [
-        "Mr. Gaurang Pant",
-        "Mr. Manas Saxena",
         "Mr. Tarun Kushwaha"
     ],
     "Media Chairs": [
