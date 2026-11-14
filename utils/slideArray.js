@@ -1300,6 +1300,55 @@ export const cards = [
     "position": "Associate Professor",
     "organization": "SOAI, Galgotias University, Greater Noida, India",
     "imgSrc": "/ImportantPersons/Prof. (Dr.) Manish Verma.jpg"
+  },
+  {
+    "name": "Mr. Ansh Vashisth",
+    "position": "Chairperson IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/ansh_vashisth.jpg"
+  },
+  {
+    "name": "Ansh Vashisth",
+    "position": "Chairperson IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/ansh_vashisth.jpg"
+  },
+  {
+    "name": "Ms. Kritika Jha",
+    "position": "Vice Chairperson IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/kritika_jha.jpg"
+  },
+  {
+    "name": "Kritika Jha",
+    "position": "Vice Chairperson IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/kritika_jha.jpg"
+  },
+
+  {
+    "name": "Mr. Atharav Singh",
+    "position": "Treasurer IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/atharav_singh.jpg"
+  },
+  {
+    "name": "Atharav Singh",
+    "position": "Treasurer IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/atharav_singh.jpg"
+  },
+  {
+    "name": "Mr. Md Rahil",
+    "position": "Secretary IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/md_rahil.jpg"
+  },
+  {
+    "name": "Md Rahil",
+    "position": "Secretary IEEE GU",
+    "organization": "Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/md_rahil.jpg"
   }
 ];
 

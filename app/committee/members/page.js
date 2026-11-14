@@ -10,7 +10,8 @@ const formatTitle = (position, organization, name) => {
     "associate director", "assistant director", "director",
     "hod", "head of department",
     "pro-vice chancellor", "vice chancellor", "chancellor",
-    "ceo", "president"
+    "ceo", "president",
+    "vice chairperson", "vice-chairperson", "vice chair", "chairperson", "treasurer", "secretary", "lead"
   ];
 
   // FIRST: Check if position has a high-priority role
@@ -235,7 +236,8 @@ export default function TeamPage() {
         "Prof. (Dr.) T. Ganesh"
     ],
     "Website & Graphics Chair": [
-        "Mr. Tarun Kushwaha"
+        "Mr. Tarun Kushwaha",
+        "Ms. Kritika Jha"
     ],
     "Media Chairs": [
         "Prof. (Dr.) Neha Jindal",
@@ -246,6 +248,11 @@ export default function TeamPage() {
         "Prof. (Dr.) Shankar Kumar",
         "Mr. Vikash Jha",
         "Mr. Nitin Varshney"
+    ],
+    "IEEE GU Student Branch Committee": [
+        "Mr. Ansh Vashisth",
+        "Mr. Atharav Singh",
+        "Mr. Md Rahil"
     ],
     "International Advisory Committee": [
         "Dr. Liudong Xing",
