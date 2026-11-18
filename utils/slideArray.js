@@ -1302,6 +1302,18 @@ export const cards = [
     "imgSrc": "/ImportantPersons/Prof. (Dr.) Manish Verma.jpg"
   },
   {
+    "name": "Prof. (Dr.) Roshni Singh",
+    "position": "Assistant Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/roshni_singh.jpg"
+  },
+  {
+    "name": "Prof. (Dr. ) Roshni Singh",
+    "position": "Assistant Professor",
+    "organization": "SCSE, Galgotias University, Greater Noida, India",
+    "imgSrc": "/ImportantPersons/roshni_singh.jpg"
+  },
+  {
     "name": "Mr. Ansh Vashisth",
     "position": "Chairperson IEEE GU",
     "organization": "Galgotias University, Greater Noida, India",

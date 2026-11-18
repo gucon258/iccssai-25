@@ -209,7 +209,8 @@ export default function TeamPage() {
         "Prof. (Dr.) Fatima Ziya",
         "Prof. Supriya",
         "Prof. (Dr.) Anima Srivastava",
-        "Prof. (Dr.) Manish Verma"
+        "Prof. (Dr.) Manish Verma",
+        "Prof. (Dr.) Roshni Singh"
     ],
     "Publication Co-Chairs": [
         "Prof. (Dr.) Shashi Bhusan",
