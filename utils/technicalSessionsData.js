@@ -108,7 +108,7 @@ export const technicalSessions = [
         "paperId": 5,
         "title": "DroidStack: A Statistically Validated Heterogeneous Stacking Ensemble for Android Malware Detection with Duplicate-Aware Evaluation",
         "presenter": "Himanshu Sayankar",
-        "affiliation": "Symbiosis Institute of Technology Nagpur, Symbiosis International (Deemed University), Pune, India",
+        "affiliation": "Symbiosis Institute of Technology Nagpur, Symbiosis International (Deemed University)",
         "track": "Track 2: Security",
         "mode": "Online"
       },
@@ -221,7 +221,7 @@ export const technicalSessions = [
       {
         "paperId": 2478,
         "title": "Micro-Optimization of Adaptive Traffic Signal Control Using Gap-Based Detection",
-        "presenter": "Akash Kumar Singh, Karan Kumar, Sankrit, Utkarsh Kumar, Rajiv Kumar Nath",
+        "presenter": "Akash Kumar Singh, Karan Kumar, Sankrit, Utkarsh Kumar, Rajiv Kumar",
         "affiliation": "Sharda University",
         "track": "Track 4: Communication",
         "mode": "Offline"
@@ -282,7 +282,7 @@ export const technicalSessions = [
       {
         "paperId": 604,
         "title": "Explainable Multi-Agent Reinforcement Learning Framework for Self-Evolving IoT Edge Ecosystems with Dynamic Resource Optimization",
-        "presenter": "K.Kamalakannan",
+        "presenter": "K.Kamalakann an",
         "affiliation": "V.Parthipan",
         "track": "Track 5: Emerging Technologies",
         "mode": "Offline"
@@ -318,7 +318,7 @@ export const technicalSessions = [
     "papers": [
       {
         "paperId": 76,
-        "title": "DisasterX -A web-Based disaster preparedness and response education system for Schools and colleges",
+        "title": "DisasterX - A web-Based disaster preparedness and response education system for Schools and colleges",
         "presenter": "Saumya Jaiswal",
         "affiliation": "United College of Engineering & Research, Prayagraj (UCER)",
         "track": "Track 6: Sustainability",
@@ -382,7 +382,7 @@ export const technicalSessions = [
         "title": "Integrated Eco-Computational Modeling for Sustainable Artificial Intelligence Operations",
         "presenter": "Kuldeep Singh Kaswan",
         "affiliation": "SR University, Telangana, India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -390,7 +390,7 @@ export const technicalSessions = [
         "title": "Carbon-Aware Artificial Intelligence Lifecycle Analytics for Resource-Efficient Computing",
         "presenter": "Kuldeep Singh Kaswan",
         "affiliation": "SR UNIVERSITY, TELANGANA",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -398,7 +398,7 @@ export const technicalSessions = [
         "title": "Intelligent Urban Tree Health Monitoring Using IoT Sensors, Remote Sensing and Machine Learning",
         "presenter": "Thar Htet Zaw, Hellen Hezron Mwaijande",
         "affiliation": "Sharda University",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -406,7 +406,7 @@ export const technicalSessions = [
         "title": "Graph Transformer Intelligence for Renewable Energy Utilization Prediction",
         "presenter": "Raj Bala",
         "affiliation": "Galgotias University",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -414,7 +414,7 @@ export const technicalSessions = [
         "title": "A Comparative Machine Learning Framework for Breast Cancer Diagnosis on the Wisconsin Diagnostic Dataset: Bridging the Accuracy–Interpretability Gap",
         "presenter": "Shikha Khullar",
         "affiliation": "Poornima University India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -422,7 +422,7 @@ export const technicalSessions = [
         "title": "MambaGuard-Net: A Lightweight Selective State-Space Deep Learning Model for Real-Time Network Intrusion Detection at the Edge",
         "presenter": "Shikha Khullar",
         "affiliation": "POORNIMA UNIVERSITY",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       }
     ]
@@ -441,7 +441,7 @@ export const technicalSessions = [
       {
         "paperId": 91,
         "title": "XGraManSwinNet: An Explainable EfficientNet-Swin Hybrid Framework for Domain-Generalized Multi-Fruit Disease Detection",
-        "presenter": "Chandiraprakash N",
+        "presenter": "Chandirapraka sh N",
         "affiliation": "SRM Institute of Science and Technology",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
@@ -535,7 +535,7 @@ export const technicalSessions = [
         "paperId": 299,
         "title": "ClariWrite Semantic-Invariant Language Refinement Using Embedding-Guided Optimization",
         "presenter": "Abirami A",
-        "affiliation": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai-602105,India.",
+        "affiliation": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai-602105 India",
         "track": "Track 3: AI and ML",
         "mode": "Online"
       },
@@ -543,7 +543,7 @@ export const technicalSessions = [
         "paperId": 300,
         "title": "Domain-Adaptive Fine-Tuning of Small Language Models using Weak Supervision for Scientific Text Generation",
         "presenter": "Abirami A",
-        "affiliation": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai-602105,India.",
+        "affiliation": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai-602105 India",
         "track": "Track 3: AI and ML",
         "mode": "Online"
       }
@@ -594,8 +594,8 @@ export const technicalSessions = [
       },
       {
         "paperId": 489,
-        "title": "Integrated Machine Learning and Dynamic Programming for Real Time Hemorrhage Diagnosis and Treatment Under Resource Constraints",
-        "presenter": "-Vs Geetha",
+        "title": "Integrated Machine Learning and Dynamic Programming for Real-Time Hemorrhage Diagnosis and Treatment Under Resource Constraints",
+        "presenter": "Vs Geetha",
         "affiliation": "NA",
         "track": "Track 3: AI and ML",
         "mode": "Online"
@@ -777,7 +777,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 660,
-        "title": "Leveraging Explainable AI Approach for Identifying Influential Features in Alzheimer's Disease Diagnosis",
+        "title": "Leveraging Explainable AI Approach for Identifying Influential Features in Alzheimer’s Disease Diagnosis",
         "presenter": "Shashank Kumar Singh",
         "affiliation": "IIT BHU",
         "track": "Track 3: AI and ML",
@@ -809,7 +809,7 @@ export const technicalSessions = [
         "title": "Quantifying the Impact of Weather and Calendar Context on Graph-Based Multimodal Traffic Speed Forecasting",
         "presenter": "Jyoti Yadav",
         "affiliation": "The NorthCap University",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -817,15 +817,15 @@ export const technicalSessions = [
         "title": "CA-TF: A Complementarity-Aware Framework for Intelligent Student Team Formation",
         "presenter": "Omkar Tripathi",
         "affiliation": "Ajay Kumar Garg Engineering College Ghaziabad",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
         "paperId": 3199,
         "title": "Cybersecurity in High-Stakes Computer-Based Examination Systems: A Systematic Literature Review and Proposed Layered Security Methodology",
         "presenter": "Vishaal J",
-        "affiliation": "KIT -KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "affiliation": "KIT - KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Online"
       },
       {
@@ -833,7 +833,7 @@ export const technicalSessions = [
         "title": "SPAM SNIPER Context-Aware Probabilistic Detection of Spam and Phising in Resource-Constrained Edge Environments",
         "presenter": "Priya Pandey",
         "affiliation": "galgotias University",
-        "track": "Track 8: Green AI, Edge Intelligence, and Data Analytics for Sustainable Smart Systems",
+        "track": "Track 8: Green AI, Edge Intelligence, and Data",
         "mode": "Offline"
       },
       {
@@ -841,7 +841,7 @@ export const technicalSessions = [
         "title": "SSH: A Hybrid Deep Learning Framework for RDP Lateral Movement Detection",
         "presenter": "Sumisthi",
         "affiliation": "Vivekananda Institute of Professional Studies-Technical Campus (VIPS-TC)",
-        "track": "Track 8: Green AI, Edge Intelligence, and Data Analytics for Sustainable Smart Systems",
+        "track": "Track 8: Green AI, Edge Intelligence, and Data",
         "mode": "Offline"
       },
       {
@@ -849,7 +849,7 @@ export const technicalSessions = [
         "title": "Operating-Point-Aware Dynamic Model Selection for Energy-Efficient Machine Learning Inference",
         "presenter": "Twisha Aggarwal",
         "affiliation": "JIMS, GREATER NOIDA",
-        "track": "Track 8: Green AI, Edge Intelligence, and Data Analytics for Sustainable Smart Systems",
+        "track": "Track 8: Green AI, Edge Intelligence, and Data",
         "mode": "Offline"
       }
     ]
@@ -930,7 +930,7 @@ export const technicalSessions = [
         "paperId": 1268,
         "title": "A Lightweight and Scalable Intrusion Detection Framework for VANET",
         "presenter": "Barkha Nandwana",
-        "affiliation": "NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY, NEW DELHI p p",
+        "affiliation": "NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY, NEW DELHI",
         "track": "Track 2: Security",
         "mode": "Offline"
       },
@@ -938,7 +938,7 @@ export const technicalSessions = [
         "paperId": 1275,
         "title": "Quantum Key Distribution in the Quantum Era: Protocols, Security Analysis, Implementation Challenges, and Future Perspectives",
         "presenter": "Shubh Chawla",
-        "affiliation": "Engineering Maharishi Markandeshwar Engineering College,Maharishi Markandeshwar(Deemed to be University)",
+        "affiliation": "Department of Computer Science and Engineering Maharishi Markandeshwar Engineering College,Maharishi Markandeshwar(Deemed to be",
         "track": "Track 2: Security",
         "mode": "Offline"
       },
@@ -1119,7 +1119,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 954,
-        "title": "Evaluating the Chatbot's Effect on Customer Loyalty: An Investigation in the NCR Region",
+        "title": "Evaluating the Chatbot’s Effect on Customer Loyalty: An Investigation in the NCR Region",
         "presenter": "Taru Maheshwari",
         "affiliation": "Krishna Institute of Engineering & Technology (KIET) Ghaziabad, Delhi-NCR, U.P., India",
         "track": "Track 5: Emerging Technologies",
@@ -1236,7 +1236,7 @@ export const technicalSessions = [
         "title": "ICAF-MD: An Integrated Contextual-Coherence and Affective-Intelligence Framework for Multilingual, Domain-Sensitive Dialogue Systems",
         "presenter": "Anurag Shrivastava",
         "affiliation": "Sanjeev Agrawal Global Educational (SAGE) University, Bhopal, India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -1244,7 +1244,7 @@ export const technicalSessions = [
         "title": "Federated Learning for Student Dropout Prediction",
         "presenter": "Dharamsoth Sowmya",
         "affiliation": "Malla Reddy Engineering College for Women",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -1252,7 +1252,7 @@ export const technicalSessions = [
         "title": "Machine Learning-Based Yield Prediction System for Paddy Crop Using Satellite Imagery",
         "presenter": "Jitendra",
         "affiliation": "IILM University Greater Noida",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -1260,7 +1260,7 @@ export const technicalSessions = [
         "title": "High-Level Intuitive Features (HLIFs) for Melanoma Detection in Consumer-Grade Images",
         "presenter": "Sanjay Kumar",
         "affiliation": "GCET",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -1268,7 +1268,7 @@ export const technicalSessions = [
         "title": "Artificial Intelligence Empowering Inclusive Sovereign Decentralized Data Ecosystems: AIDES-X Framework with Federated Intelligence",
         "presenter": "Sunil Kumar Bharti",
         "affiliation": "SR University, Telangana 506371, India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -1276,7 +1276,7 @@ export const technicalSessions = [
         "title": "Workload Based CPU Capacity Reservation and Energy Efficient VM Placement",
         "presenter": "Sarita Kumari",
         "affiliation": "AIIT, Amity University Noida, UP",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       }
     ]
@@ -1380,7 +1380,7 @@ export const technicalSessions = [
       {
         "paperId": 2477,
         "title": "Enhanced Low-SNR Radio Signal Classification Using Deep Learning: A Comprehensive Review",
-        "presenter": "Supriya Rani, Shreya Upadhyay, Aparna Pandey, Rajiv Kumar Nath, Inderpreet Kaur",
+        "presenter": "Supriya Rani, Shreya Upadhyay, Aparna Pandey Rajiv",
         "affiliation": "Sharda University",
         "track": "Track 2: Security",
         "mode": "Offline"
@@ -1599,7 +1599,7 @@ export const technicalSessions = [
     "papers": [
       {
         "paperId": 1689,
-        "title": "A Multimodal Machine Learning Framework for Parkinson's Disease Detection Using Stacking-Based Ensemble Learning",
+        "title": "A Multimodal Machine Learning Framework for Parkinson’s Disease Detection Using Stacking-Based Ensemble Learning",
         "presenter": "Greeshma G S",
         "affiliation": "Dr. B R Ambedkar National Institute of Technology, Jalandhar, Punjab, India",
         "track": "Track 3: AI and ML",
@@ -1686,7 +1686,7 @@ export const technicalSessions = [
         "paperId": 1698,
         "title": "AI-Driven Hate Speech Detection on Social Media: A Systematic Review of NLP Techniques",
         "presenter": "Anju Devi",
-        "affiliation": "M.M.Institute of computer technology &Business Management, Maharishi Markandeshwar (deemed to be university), mullana,Ambala",
+        "affiliation": "M.M.Institute of computer technology &Business Management, Maharishi Markandeshwar (deemed to be university) mullana Ambala",
         "track": "Track 5: Emerging Technologies",
         "mode": "Offline"
       },
@@ -1861,7 +1861,7 @@ export const technicalSessions = [
         "paperId": 2327,
         "title": "Intelligent Hire: A Semantic Feature-Driven Ensemble Machine Learning Framework for Automated Resume Screening, Candidate Ranking, and Shortlisting",
         "presenter": "Gungun Bajaj",
-        "affiliation": "Vivekananda Institute of Professional Studies -Technical Campus",
+        "affiliation": "Vivekananda Institute of Professional Studies - Technical Campus",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -1869,7 +1869,7 @@ export const technicalSessions = [
         "paperId": 2346,
         "title": "Sentinel-2 Multispectral Crop Type Classification Using AgriFieldNet Dataset: Special Characterization and Class Imbalance Aware Baseline Analysis",
         "presenter": "Neeraj Kumar,Vikash Kumar Mishra",
-        "affiliation": "Amity University, Uttar Pradesh, Lucknow campus,School of Computer Science, University of Petroleum and Energy Studies (UPES), Dehradun, Uttarakhand, India",
+        "affiliation": "Amity University, Uttar Pradesh, Lucknow campus,School of Computer Science, University of Petroleum and Energy Studies",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -1885,7 +1885,7 @@ export const technicalSessions = [
         "paperId": 1479,
         "title": "Occlusion-Robust FER for Partially Covered Faces",
         "presenter": "A.Deepa",
-        "affiliation": "SIMATS ENGINEERING Saveetha Nagar, Thandalam, Chennai -602 105, TamilNadu, India.",
+        "affiliation": "SIMATS ENGINEERING Saveetha Nagar, Thandalam, Chennai - 602 105, TamilNadu, India.",
         "track": "Track 3: AI and ML",
         "mode": "Online"
       }
@@ -2041,7 +2041,7 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 2600,
+        "paperId": 702,
         "title": "Machine Learning Based Framework of Early Prediction of Heart Disease Risk",
         "presenter": "Subham Kumar, Ajeet Singh",
         "affiliation": "Galgotias University",
@@ -2241,7 +2241,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 3174,
-        "title": "Blockchain-Based Tamper-Evident Distributed Denial-of-Service (DDoS) Attack Log Management Systems: A Systematic Survey",
+        "title": "Blockchain-Based Tamper-Evident Distributed Denial-of- Service (DDoS) Attack Log Management Systems: A Systematic Survey",
         "presenter": "Rishika Kori",
         "affiliation": "Rajkiya Engineering College Bijnor",
         "track": "Track 2: Security",
@@ -2288,7 +2288,7 @@ export const technicalSessions = [
         "paperId": 2752,
         "title": "AI-Driven Autonomous Academic Institution Framework: A Comparative Evaluation of Intelligent Automation and Conventional ERP-Based Higher Education Management",
         "presenter": "Tavishi Agarwal",
-        "affiliation": "KIET Deemed to be University, Delhi NCR, Ghaziabad",
+        "affiliation": "KIET eD le he Nm Ced ,t o b he zU ian biv ae drsity, D i R G a",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2509,7 +2509,7 @@ export const technicalSessions = [
         "title": "Computational Sustainability Modeling for Equitable Global Data Ecosystems",
         "presenter": "Sunil Kumar Bharti",
         "affiliation": "SR University, Telangana 506371, India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -2517,7 +2517,7 @@ export const technicalSessions = [
         "title": "Decentralized Data Ecosystems Enabling Fair Digital Sovereignty Resilience",
         "presenter": "Sunil Kumar Bharti",
         "affiliation": "SR University, Telangana 506371, India",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -2525,7 +2525,7 @@ export const technicalSessions = [
         "title": "A Multimodal Explainable Deep Learning Framework for Land Use and Land Cover Classification from Satellite Imagery",
         "presenter": "Abhay Kumar Agrahari",
         "affiliation": "bennett University",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -2533,7 +2533,7 @@ export const technicalSessions = [
         "title": "TrustForge: Building Trust in Decentralized Freelancing Using Blockchain and Artificial Intelligence",
         "presenter": "Shreya Tiwari",
         "affiliation": "IMS ENGINEERING COLLEGE",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       },
       {
@@ -2541,7 +2541,15 @@ export const technicalSessions = [
         "title": "EMOGATE: INTEGRATING STATISTICAL SALIENCE WITH SEMANTIC EMBEDDINGS FOR CONTEXT-AWARE EMOTION RECOGNITION",
         "presenter": "Priyanka",
         "affiliation": "Galgotias University",
-        "track": "Track 7: Advances in Data Science, Intelligent Computing, and AI-Driven Analytics for Smart and Sustainable Systems",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
+        "mode": "Offline"
+      },
+      {
+        "paperId": 3267,
+        "title": "Region-Based Energy-Aware Clustering Protocol for Smart Farming IoT Networks",
+        "presenter": "Isha Chopra",
+        "affiliation": "M. M. Engineering College Maharishi Markandeshwar (Deemed to be University) Mullana-Ambala",
+        "track": "Track 7: Advances in Data Science, Intelligent Computing",
         "mode": "Offline"
       }
     ]
@@ -2561,7 +2569,7 @@ export const technicalSessions = [
         "paperId": 2993,
         "title": "Explainable AI for Accessible Voting Assistance for Persons with Visual Impairments",
         "presenter": "Paras Datt",
-        "affiliation": "University, Mohali-140413, Punjab, India.",
+        "affiliation": "University Institute of Legal Studies, Chandigarh University, Mohali-140413, Punjab, India.",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2601,7 +2609,7 @@ export const technicalSessions = [
         "paperId": 2217,
         "title": "Temporal Bayesian Network Flow with Hyperbolic Federated Conformal Prediction for 3-Year Pancre-atic Cancer Risk",
         "presenter": "R Cynthia Shalini",
-        "affiliation": "Saveetha School of Engineer-ing,Saveetha Institute of Medical and Technical Sciences(SIMATS) ,Chennai, India",
+        "affiliation": "Saveetha School of Engineer-ing,Saveetha Institute of Medical and Technical Sciences(SIMATS) Chennai India",
         "track": "Track 3: AI and ML",
         "mode": "Online"
       }
@@ -2706,7 +2714,7 @@ export const technicalSessions = [
       {
         "paperId": 3131,
         "title": "Intelligent Surveillance System for Human Behaviour Detection and Alert Generation Using YOLOv8 and LSTM",
-        "presenter": "Rahul Chaudhary, Keshav Kumar, Sooraj Tm, Inderpreet Kaur, Rajiv Kumar Nath",
+        "presenter": "Rahul Chaudhary, Keshav Kumar, Sooraj Tm, Inderpreet",
         "affiliation": "Sharda University",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
@@ -2784,7 +2792,15 @@ export const technicalSessions = [
         "paperId": 2376,
         "title": "Intelligent Cryptographic Analysis, Recommendation, and Re-Encryption System with Chatbot Support",
         "presenter": "Swathi K",
-        "affiliation": "KIT -Kalaignar Karunanidhi Institute of Technology",
+        "affiliation": "KIT - Kalaignar Karunanidhi Institute of Technology",
+        "track": "Track 3: AI and ML",
+        "mode": "Online"
+      },
+      {
+        "paperId": 2073,
+        "title": "Credit Card Default Prediction Using Explainable Artificial Intelligence",
+        "presenter": "Thamaraiselvi Arjunan",
+        "affiliation": "Sona College of Technology",
         "track": "Track 3: AI and ML",
         "mode": "Online"
       }
@@ -2827,7 +2843,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 2492,
-        "title": "Item Extraction before Fuzzy Matching: A Controlled Evaluation of an OCR and Rule-Based Parsing Pipeline for Purchase-List Digitization",
+        "title": "Item Extraction before Fuzzy Matching: A Controlled Evaluation of an OCR and Rule- Based Parsing Pipeline for Purchase-List Digitization",
         "presenter": "Varun Kumar Tambi",
         "affiliation": "IEEE",
         "track": "Track 3: AI and ML",
@@ -2848,6 +2864,14 @@ export const technicalSessions = [
         "affiliation": "St. Joseph's College Of Engineering",
         "track": "Track 3: AI and ML",
         "mode": "Online"
+      },
+      {
+        "paperId": 1218,
+        "title": "Intelligent Banking Transformation Using Advanced Computing: A Convergence Framework for India",
+        "presenter": "Borigam Venkateshwarl u",
+        "affiliation": "SR University, Warangal, Telangana",
+        "track": "Track 3: AI and ML",
+        "mode": "Offline"
       }
     ]
   },
@@ -2872,7 +2896,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 3281,
-        "title": "Multimodal AI and the Teaching of Visual Literacy: A Small-Scale Evaluation Framework Using Brian Selznick's The Invention of Hugo Cabret",
+        "title": "Multimodal AI and the Teaching of Visual Literacy: A Small-Scale Evaluation Framework Using Brian Selznick’s The Invention of Hugo Cabret",
         "presenter": "Vibha Awasthi",
         "affiliation": "MMEC Maharishi Markandeshwar (Deemed to be University) Mullana, Ambala, Haryana, India – 133207",
         "track": "Track 3: AI and ML",
@@ -2880,7 +2904,7 @@ export const technicalSessions = [
       },
       {
         "paperId": 3282,
-        "title": "Evaluating Generative AI for Teaching Literary Interpretation: A Protocol-Based Case Study of Alan Gratz's Refugee",
+        "title": "Evaluating Generative AI for Teaching Literary Interpretation: A Protocol-Based Case Study of Alan Gratz’s Refugee",
         "presenter": "Vibha Awasthi",
         "affiliation": "MMEC Maharishi Markandeshwar (Deemed to be University) Mullana, Ambala, Haryana, India – 133207",
         "track": "Track 3: AI and ML",
@@ -2909,6 +2933,14 @@ export const technicalSessions = [
         "affiliation": "AMC Engineering College",
         "track": "Track 3: AI and ML",
         "mode": "Online"
+      },
+      {
+        "paperId": 2600,
+        "title": "An Unsupervised Machine Learning Application for Optimizing Parameters in a Software-Design Process",
+        "presenter": "Sufia Chishti",
+        "affiliation": "Galgotias University",
+        "track": "Track 3: AI and ML",
+        "mode": "Offline"
       }
     ]
   },
@@ -2924,11 +2956,11 @@ export const technicalSessions = [
     "sessionTrack": "Miscellaneous",
     "papers": [
       {
-        "paperId": 3285,
-        "title": "Campus GPT – AI-Powered Smart College Ecosystem",
-        "presenter": "Sneha Agarwal, Riya Mishra, Mandavi Rai , Ritika Deol",
-        "affiliation": "Ajay kumar garg engineering college",
-        "track": "Track 3: AI and ML",
+        "paperId": 1056,
+        "title": "Cold Start Challenges in Serverless Computing: A Survey of Predictive and Adaptive Strategies",
+        "presenter": "Ravi Kumar",
+        "affiliation": "Bennett University",
+        "track": "Track 4: Communication",
         "mode": "Offline"
       },
       {
@@ -2936,6 +2968,14 @@ export const technicalSessions = [
         "title": "Lightweight Machine Learning Framework for Human Activity Recognition in Wearable IoT Healthcare Systems",
         "presenter": "Jawed Akhtar",
         "affiliation": "Netaji Subhas University of Technology",
+        "track": "Track 3: AI and ML",
+        "mode": "Offline"
+      },
+      {
+        "paperId": 3285,
+        "title": "Campus GPT – AI-Powered Smart College Ecosystem",
+        "presenter": "Sneha Agarwal, Riya Mishra, Mandavi Rai , Ritika Deol",
+        "affiliation": "Ajay kumar garg engineering college",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2961,6 +3001,14 @@ export const technicalSessions = [
         "presenter": "Sasi Vardhan Talluri",
         "affiliation": "Vellore Institute of Technology, Vellore",
         "track": "Track 5: Emerging Technologies",
+        "mode": "Online"
+      },
+      {
+        "paperId": 661,
+        "title": "DATA-CENTRIC OPTIMIZATION IN CLOUD-BASED FEDERATED DEEP LEARNING FOR DRIVER BEHAVIOR ANALYTICS",
+        "presenter": "Kadir G",
+        "affiliation": "Saveetha School of Engineering",
+        "track": "Track 1: Computing",
         "mode": "Online"
       }
     ]
