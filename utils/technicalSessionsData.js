@@ -150,10 +150,10 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 57,
-        "title": "Adaptive Gaussian Structure Preserving Color Normalization for Histopathological Images",
-        "presenter": "Jitendra Singh Jadon",
-        "affiliation": "Amity University, Uttar Pradesh, Greater Noida",
+        "paperId": 2327,
+        "title": "Intelligent Hire: A Semantic Feature-Driven Ensemble Machine Learning Framework for Automated Resume Screening, Candidate Ranking, and Shortlisting",
+        "presenter": "Gungun Bajaj",
+        "affiliation": "Vivekananda Institute of Professional Studies - Technical Campus",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -203,11 +203,11 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 1595,
-        "title": "Robotic Service Automation in Indian Restaurants: Adoption, Impact, and Prospects",
-        "presenter": "Megha Aggarwal",
-        "affiliation": "Uttaranchal University",
-        "track": "Track 4: Communication",
+        "paperId": 1451,
+        "title": "Unsupervised Deep Learning Framework for Association Rule Refinement in Retail DataSet",
+        "presenter": "Rakesh Kumar",
+        "affiliation": "Greater Noida Institute of Technology, Greater Noida",
+        "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
       {
@@ -347,6 +347,14 @@ export const technicalSessions = [
         "affiliation": "GALGOTIAS UNIVERSITY, INDIA",
         "track": "Track 6: Sustainability",
         "mode": "Offline"
+      },
+      {
+        "paperId": 2913,
+        "title": "Design and Development of an Arduino-Based Smart Crop Monitoring and Automatic Irrigation System for Sustainable and Efficient Agricultural Water Management",
+        "presenter": "Karishma N",
+        "affiliation": "St. Joseph's College Of Engineering",
+        "track": "Track 6: Sustainability",
+        "mode": "Online"
       },
       {
         "paperId": 986,
@@ -691,10 +699,10 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 918,
-        "title": "A Unified Explainable Deep Learning Framework for Multi-Disease Chest Pathology Detection",
-        "presenter": "Lalit Verma",
-        "affiliation": "Lovely Professional University",
+        "paperId": 1319,
+        "title": "LightGBM-Based Financial Fraud Detection Using the IEEE-CIS Dataset: A Comparative Analysis of Feature Scaling",
+        "presenter": "Jyotsana Pandey",
+        "affiliation": "Madan Mohan Malaviya University of Technology",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -906,6 +914,14 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
+        "paperId": 3270,
+        "title": "Performance Analysis of Network Size and Packet Size on Quality of Service in Mobile Ad Hoc Networks Using NetSim",
+        "presenter": "Shreyansh",
+        "affiliation": "Madan Mohan Malaviya University of Technology, Gorakhpur",
+        "track": "Track 1: Computing",
+        "mode": "Offline"
+      },
+      {
         "paperId": 3095,
         "title": "Workload-Aware Natural Language to SQL Generation Through Query-Pattern-Based Schema Context Selection",
         "presenter": "Anirudha D A",
@@ -1020,6 +1036,14 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
+        "paperId": 2710,
+        "title": "An Integrated Machine Learning Framework for Student Performance Prediction Using Heterogeneous Educational Data",
+        "presenter": "Pawan Painuli",
+        "affiliation": "Uttaranchal School of Computing Sciences, Uttaranchal University Dehradun",
+        "track": "Track 3: AI and ML",
+        "mode": "Offline"
+      },
+      {
         "paperId": 731,
         "title": "Multi-Dimensional Gan Frameworks for High-Fidelity Medical Image Synthesis",
         "presenter": "Kalai Vani D K",
@@ -1065,10 +1089,10 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 1319,
-        "title": "LightGBM-Based Financial Fraud Detection Using the IEEE-CIS Dataset: A Comparative Analysis of Feature Scaling",
-        "presenter": "Jyotsana Pandey",
-        "affiliation": "Madan Mohan Malaviya University of Technology",
+        "paperId": 918,
+        "title": "A Unified Explainable Deep Learning Framework for Multi-Disease Chest Pathology Detection",
+        "presenter": "Lalit Verma",
+        "affiliation": "Lovely Professional University",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -1476,11 +1500,11 @@ export const technicalSessions = [
     "sessionTrack": "Track 3: AI and ML",
     "papers": [
       {
-        "paperId": 1451,
-        "title": "Unsupervised Deep Learning Framework for Association Rule Refinement in Retail DataSet",
-        "presenter": "Rakesh Kumar",
-        "affiliation": "Greater Noida Institute of Technology, Greater Noida",
-        "track": "Track 3: AI and ML",
+        "paperId": 1595,
+        "title": "Robotic Service Automation in Indian Restaurants: Adoption, Impact, and Prospects",
+        "presenter": "Megha Aggarwal",
+        "affiliation": "Uttaranchal University",
+        "track": "Track 4: Communication",
         "mode": "Offline"
       },
       {
@@ -1858,10 +1882,10 @@ export const technicalSessions = [
         "mode": "Offline"
       },
       {
-        "paperId": 2327,
-        "title": "Intelligent Hire: A Semantic Feature-Driven Ensemble Machine Learning Framework for Automated Resume Screening, Candidate Ranking, and Shortlisting",
-        "presenter": "Gungun Bajaj",
-        "affiliation": "Vivekananda Institute of Professional Studies - Technical Campus",
+        "paperId": 3042,
+        "title": "A Finite-Horizon Decision Framework for Competitive Agricultural Resource Allocation",
+        "presenter": "Ishita Singh",
+        "affiliation": "ABES Engineering College",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2147,14 +2171,6 @@ export const technicalSessions = [
     "sessionTrack": "Track 1: Computing",
     "papers": [
       {
-        "paperId": 3270,
-        "title": "Performance Analysis of Network Size and Packet Size on Quality of Service in Mobile Ad Hoc Networks Using NetSim",
-        "presenter": "Shreyansh",
-        "affiliation": "Madan Mohan Malaviya University of Technology, Gorakhpur",
-        "track": "Track 1: Computing",
-        "mode": "Offline"
-      },
-      {
         "paperId": 3272,
         "title": "Tomato Leaf Disease Detection Using Deep Learning",
         "presenter": "Piyush Sagar",
@@ -2229,7 +2245,7 @@ export const technicalSessions = [
         "presenter": "Mohan Raj D",
         "affiliation": "VELLORE INSTITUTE OF TECHNOLOGY",
         "track": "Track 2: Security",
-        "mode": "Offline"
+        "mode": "Online"
       },
       {
         "paperId": 3112,
@@ -2265,14 +2281,6 @@ export const technicalSessions = [
         "title": "Self-Supervised Learning for Fault Detection in Agricultural IoT Sensors with Limited Labeled Data",
         "presenter": "Rajaram Kumaravel",
         "affiliation": "Kalaignar Karunanidhi Institute of Technology (KIT), Coimbatore, Tamil Nadu – 641402, India",
-        "track": "Track 3: AI and ML",
-        "mode": "Offline"
-      },
-      {
-        "paperId": 2710,
-        "title": "An Integrated Machine Learning Framework for Student Performance Prediction Using Heterogeneous Educational Data",
-        "presenter": "Pawan Painuli",
-        "affiliation": "Uttaranchal School of Computing Sciences, Uttaranchal University Dehradun",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2482,14 +2490,6 @@ export const technicalSessions = [
         "affiliation": "Vishwakarma Institute of Technology, Pune",
         "track": "Track 6: Sustainability",
         "mode": "Online"
-      },
-      {
-        "paperId": 2913,
-        "title": "Design and Development of an Arduino-Based Smart Crop Monitoring and Automatic Irrigation System for Sustainable and Efficient Agricultural Water Management",
-        "presenter": "Karishma N",
-        "affiliation": "St. Joseph's College Of Engineering",
-        "track": "Track 6: Sustainability",
-        "mode": "Online"
       }
     ]
   },
@@ -2627,10 +2627,10 @@ export const technicalSessions = [
     "sessionTrack": "Track 3: AI and ML",
     "papers": [
       {
-        "paperId": 3042,
-        "title": "A Finite-Horizon Decision Framework for Competitive Agricultural Resource Allocation",
-        "presenter": "Ishita Singh",
-        "affiliation": "ABES Engineering College",
+        "paperId": 57,
+        "title": "Adaptive Gaussian Structure Preserving Color Normalization for Histopathological Images",
+        "presenter": "Jitendra Singh Jadon",
+        "affiliation": "Amity University, Uttar Pradesh, Greater Noida",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
       },
@@ -2889,7 +2889,7 @@ export const technicalSessions = [
       {
         "paperId": 3278,
         "title": "SHee: An AI-Powered Multi-Channel Personal Safety Device with Voice-Activated SOS and Real-Time GPS Tracking",
-        "presenter": "Jatin Mishra",
+        "presenter": "Ayushi Pandey",
         "affiliation": "Ajay Kumar Garg Engineering college",
         "track": "Track 3: AI and ML",
         "mode": "Offline"
